@@ -16,7 +16,7 @@ function App() {
         fontSize: "40px",
         padding: "50px 100px",
         color: "darkturquoise"
-      }}>I have nothing more to say...</p>
+      }}>Welcome</p>
     </div>
   );
 }
