@@ -1,0 +1,25 @@
+.sideBarLeft {
+    position: fixed;
+    left: 2rem;
+    bottom: -2rem;
+    right: auto;
+    z-index: 10;
+}
+
+.sideBarLeft__icons_cntr {
+    list-style: none;
+    position: fixed;
+    bottom: 9.5rem;
+}
+
+.sideBarLeft__line {
+    width: 1px;
+    height: 10rem;
+    margin-left: 0.8rem;
+    background: var(--white)
+}
+
+
+.sideBarLeft__icon {
+    margin-top: 0.7rem;
+}

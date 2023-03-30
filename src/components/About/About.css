@@ -1,0 +1,43 @@
+.about {
+    max-width: 1000px;
+    width: 100%;
+    padding: 4rem 6rem;
+    /* padding-left: 3rem; */
+}
+
+.about__hello {
+    color: var(--aqua);
+    font-size: 1.3rem;
+}
+
+.about__name {
+    font-size: 4rem;
+    font-weight: 500;
+    margin: 1rem 0;
+    font-family: Mynerve;
+}
+
+.about__desc_top {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about__desc_add {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.about__btn {
+    color: var(--aqua);
+    background-color: transparent;
+    border: 1px solid var(--aqua);
+    border-radius: var(--border-radius);
+    padding: 1.25rem 1.75rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-top: 4rem;
+}
+
+.about__btn:hover {
+    background-color: var(--aqua-transparent);
+}

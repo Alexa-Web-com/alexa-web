@@ -1,0 +1,34 @@
+.sideBarRight {
+    position: fixed;
+    right: 2rem;
+    bottom: 0rem;
+    left: auto;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.sideBarRight__email_wrapper {
+    transform-origin: top right;
+    transform: rotate(90deg);
+    position: fixed;
+    right: 2.2rem;
+    bottom: 9rem;
+}
+
+.sideBarRight__email {
+    font-weight: 300;
+    text-decoration: none;
+    color: var(--white);
+}
+
+.sideBarRight__line {
+    max-width: 1px;
+    width: 1px;
+    height: 10rem;
+    background: var(--white);
+    position: fixed;
+    right: 3rem;
+    bottom: -2rem;
+}

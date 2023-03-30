@@ -5,9 +5,18 @@
 }
 
 body {
-  /* background-color: var(--navy); */
-  background-color: rgb(12, 12, 51);
-
+  background-color: var(--navy);
   font-family: 'Exo 2';
   color: white;
+}
+
+:root {
+  --navy: rgb(10, 10, 50);
+  --white: ghostwhite;
+  --blue: cornflowerblue;
+  --aqua: turquoise;
+  --aqua-transparent: rgba(64, 224, 208, 0.127);
+  --pink: hotpink;
+  --border-radius: 3px;
+
 }

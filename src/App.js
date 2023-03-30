@@ -1,22 +1,16 @@
 import './App.css';
+import Navbar from './components/Navbar/Navbar'
+import SideBarLeft from './components/SideBarLeft/SideBarLeft';
+import SideBarRight from './components/SideBarRight/SideBarRight';
+import Home from './pages/Home/Home'
 
 function App() {
   return (
-    <div className="App">
-      <p style={{
-        fontSize: "40px",
-        padding: "50px 100px"
-      }}>Hi, my name is Alexandra</p>
-      <p style={{
-        fontSize: "40px",
-        padding: "50px 100px",
-        color: "cornflowerblue"
-      }}>I am your front-developer!</p>
-      <p style={{
-        fontSize: "40px",
-        padding: "50px 100px",
-        color: "darkturquoise"
-      }}>Welcome</p>
+    <div className='App'>
+      <Navbar />
+      <Home />
+      <SideBarLeft />
+      <SideBarRight />
     </div>
   );
 }
