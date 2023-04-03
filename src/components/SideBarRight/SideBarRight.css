@@ -17,7 +17,8 @@
 .sideBarRight__email {
     font-weight: 300;
     text-decoration: none;
-    color: var(--white);
+    color: white;
+    font-family: var(--fonts2)
 }
 
 .sideBarRight__line {

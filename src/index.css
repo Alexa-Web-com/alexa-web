@@ -12,12 +12,17 @@ body {
 
 :root {
   --navy: rgb(10, 10, 50);
-  --white: ghostwhite;
+  --lighternavy: rgb(30, 30, 100);
+  --lighternavy2: rgb(40, 40, 100);
+  /* --lighternavy2: rgb(100, 149, 237); */
+
   --blue: cornflowerblue;
   --aqua: turquoise;
   --aqua-transparent: rgba(64, 224, 208, 0.127);
   --pink: hotpink;
   --border-radius: 5px;
+
+  --fonts2: Inconsolata;
   --fontXS: 1rem;
   --fontS: 1.1rem;
   --fontM: 1.3rem;
@@ -27,7 +32,7 @@ body {
 .component {
   max-width: 1200px;
   width: 100%;
-  padding: 20rem 6rem 0 6rem;
+  padding: 20rem 8rem 0 8rem;
 }
 
 .title {
@@ -48,7 +53,7 @@ body {
 .vertical_line {
   width: 1px;
   height: 10rem;
-  background: var(--white);
+  background: white;
 }
 
 .horizontal_line {

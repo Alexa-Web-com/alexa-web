@@ -1,6 +1,11 @@
+.intro {
+    padding: 20rem 6rem 0 6rem;
+}
+
 .intro__hello {
     color: var(--aqua);
     font-size: var(--fontM);
+    font-family: var(--fonts2)
 }
 
 .intro__name {
@@ -23,6 +28,7 @@
 
 .intro__btn {
     color: var(--aqua);
+    font-family: var(--fonts2);
     background-color: transparent;
     border: 1px solid var(--aqua);
     border-radius: var(--border-radius);
@@ -55,6 +61,10 @@
 }
 
 @media screen and (max-width: 480px) {
+    .intro {
+        padding: 15rem 2rem 8rem 2rem;
+    }
+
     .intro__name {
         font-size: 3rem;
     }

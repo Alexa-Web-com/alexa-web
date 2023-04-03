@@ -1,15 +1,11 @@
-.projects {
-    padding-left: 8rem;
-}
-
 .projects__title_cntr {
     display: flex;
 }
 
 .projects__line {
-    background-color: var(--pink);
+    background-color: var(--aqua);
 }
 
 .projects__title {
-    color: var(--pink);
+    color: var(--aqua);
 }
