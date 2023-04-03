@@ -19,7 +19,22 @@ export const DICT = {
         aboutDescElTwo: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus culpa ",
         aboutDescElColorOne: "obcaecati necessitatibus ",
         aboutDescElTree: "adipisci. Ipsam id, vel sapiente aspernatur perspiciatis tenetur soluta. ",
-        aboutDescElFour: "Here are a few technologies I've been working with recently: "
+        aboutDescElFour: "Here are a few technologies I've been working with recently: ",
+
+        projectsFeaturedProject: "Featured Project",
+
+        projectsProjectTitleSW: "Star Wars Fans",
+        projectsProjectDescSW: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
+
+        projectsProjectTitleMW: "My Wheather",
+        projectsProjectDescMW: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
+
+        projectsProjectTitleStudioWWW: "Studio-www",
+        projectsProjectDescStudioWWW: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
+
+        projectsProjectTitleBeautyS: "Beauty Studio",
+        projectsProjectDescBeautyS: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
+
     },
 
     pl: {
@@ -28,7 +43,7 @@ export const DICT = {
         navbarProjects: "Projekty",
         navbarContact: "Kontakt",
 
-        introHello: "Hello, my name is",
+        introHello: "Cześć, nazywam się",
         introName: "Aleksandra Wilczyńska",
         introDescTopOne: "I'm ",
         introDescTopTwo: "Front-end Developer ",
@@ -40,6 +55,20 @@ export const DICT = {
         aboutDescElTwo: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus culpa ",
         aboutDescElColorOne: "obcaecati necessitatibus ",
         aboutDescElTree: "adipisci. Ipsam id, vel sapiente aspernatur perspiciatis tenetur soluta. ",
-        aboutDescElFour: "Kilka technologii, w których ostatnio pracowałam: "
+        aboutDescElFour: "Kilka technologii, w których ostatnio pracowałam: ",
+
+        projectsFeaturedProject: "Wykonany Projekt",
+
+        projectsProjectTitleSW: "Star Wars Fans",
+        projectsProjectDescSW: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
+
+        projectsProjectTitleMW: "My Wheather",
+        projectsProjectDescMW: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
+
+        projectsProjectTitleStudioWWW: "Studio-www",
+        projectsProjectDescStudioWWW: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
+
+        projectsProjectTitleBeautyS: "Beauty Studio",
+        projectsProjectDescBeautyS: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
     }
 }

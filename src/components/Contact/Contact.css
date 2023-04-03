@@ -1,15 +1,11 @@
-.contact {
-    padding-left: 8rem;
-}
-
 .contact__title_cntr {
     display: flex;
 }
 
 .contact__line {
-    background-color: var(--aqua);
+    background-color: var(--pink);
 }
 
 .contact__title {
-    color: var(--aqua);
+    color: var(--pink);
 }

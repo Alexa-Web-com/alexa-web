@@ -5,7 +5,9 @@ const SideBarRight = () => {
         <div className='sideBarRight'>
             <div className='sideBarRight__email_wrapper'>
                 <a href='http://jw.org' className="sideBarRight__email">
-                    i n f o  @ a l e x a - w e b . c o m
+                    i n f o @ a l e x a - w e b . c o m
+                    {/* info@alexa-web.com */}
+                    {/* info @ alexa - web . com */}
                 </a>
             </div >
             <div className="sideBarRight__line vertical_line"></div>

@@ -39,7 +39,7 @@ const Navbar = () => {
                     onClick={() => setIsHamburgerActive(prevState => !prevState)}>
 
                     <span className='bar' style={{ backgroundColor: "var(--blue)" }}></span>
-                    <span className='bar' style={{ backgroundColor: "var(--white)" }}></span>
+                    <span className='bar' style={{ backgroundColor: "white" }}></span>
                     <span className='bar' style={{ backgroundColor: "var(--aqua)" }}></span>
                 </div>
 

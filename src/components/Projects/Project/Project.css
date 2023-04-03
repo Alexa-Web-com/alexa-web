@@ -1,0 +1,117 @@
+.project {
+    display: flex;
+    padding: 2rem 0 8rem 0;
+    width: 100%;
+}
+
+.project__background_img {
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 5px 5px 5px rgb(1, 1, 33);
+    border-radius: var(--border-radius);
+}
+
+.project__cntr_odd,
+.project__cntr_even {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 350px;
+    width: 100%;
+}
+
+.project__cntr_odd {
+    align-items: flex-end;
+}
+
+.project__cntr_even {
+    align-items: flex-start;
+}
+
+.project__featured_project {
+    font-family: var(--fonts2)
+}
+
+.project__title {
+    font-size: var(--fontL);
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+.project__title_link {
+    text-decoration: none;
+    color: var(--aqua);
+    text-decoration: underline;
+}
+
+.project__title_link:hover {
+    text-decoration: none;
+    color: rgb(3, 255, 230);
+    text-decoration: underline;
+}
+
+.project__desc {
+    background-color: var(--lighternavy);
+    padding: 1.5rem 1.2rem;
+    position: relative;
+    width: 120%;
+    line-height: 1.6rem;
+    font-weight: 300;
+    box-shadow: 5px 5px 5px rgb(1, 1, 33);
+    border-radius: var(--border-radius)
+}
+
+.project__technologies {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.project__technology {
+    padding: 2rem 0;
+
+    font-size: var(--fontXS);
+
+}
+
+.projects__linkIcons {
+    display: flex;
+}
+
+.project__icon {
+    list-style: none;
+    margin: 0.5rem;
+}
+
+.project__icon:hover {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 768px) {
+    .project {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding-left: 1rem;
+    }
+
+    .project__cntr_odd,
+    .project__cntr_even {
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .project__background_img {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .project__desc {
+        position: static;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {}
