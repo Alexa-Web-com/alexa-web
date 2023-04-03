@@ -1,7 +1,4 @@
 .sideBarRight {
-    position: fixed;
-    right: 2rem;
-    bottom: 0rem;
     left: auto;
     z-index: 10;
     display: flex;
@@ -24,11 +21,24 @@
 }
 
 .sideBarRight__line {
-    max-width: 1px;
-    width: 1px;
-    height: 10rem;
-    background: var(--white);
     position: fixed;
     right: 3rem;
     bottom: -2rem;
+}
+
+@media screen and (max-width: 768px) {
+
+    .sideBarRight__email_wrapper {
+        right: 1.3rem;
+    }
+
+    .sideBarRight__line {
+        right: 2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .sideBarRight {
+        display: none;
+    }
 }

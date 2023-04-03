@@ -1,7 +1,15 @@
-.projectsC {
-    border: 4px solid var(--pink);
-    width: 20rem;
-    height: 20rem;
-    padding: 1rem;
-    margin: 1rem;
+.projects {
+    padding-left: 8rem;
+}
+
+.projects__title_cntr {
+    display: flex;
+}
+
+.projects__line {
+    background-color: var(--pink);
+}
+
+.projects__title {
+    color: var(--pink);
 }

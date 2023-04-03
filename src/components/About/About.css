@@ -1,43 +1,140 @@
 .about {
-    max-width: 1000px;
+    padding-left: 8rem;
+}
+
+.about__title_cntr {
+    display: flex;
+}
+
+.about__line {
+    background-color: var(--blue);
+}
+
+.about__title {
+    color: var(--blue);
+}
+
+.about__content_cntr {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about__desc_el {
+    padding-bottom: 1rem;
+}
+
+.about__technologies_cntr {
+    display: flex;
+}
+
+.about__desc_ul {
     width: 100%;
-    padding: 4rem 6rem;
-    /* padding-left: 3rem; */
+    list-style-image: url('../../assets/list_markers/check-circled-outline.svg');
 }
 
-.about__hello {
-    color: var(--aqua);
-    font-size: 1.3rem;
+.about__desc_el_li {
+    line-height: 1.8rem;
 }
 
-.about__name {
-    font-size: 4rem;
-    font-weight: 500;
-    margin: 1rem 0;
-    font-family: Mynerve;
+.about__desc_el_li:hover {
+    color: rgb(149, 179, 235);
+    list-style-image: url('../../assets/list_markers/check-circled-outline-big.svg');
 }
 
-.about__desc_top {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+.about__desc_left_col {
+    padding-left: 2rem;
 }
 
-.about__desc_add {
-    font-size: 1.3rem;
-    font-weight: 300;
+.about__right {
+    padding-left: 3rem;
 }
 
-.about__btn {
-    color: var(--aqua);
-    background-color: transparent;
-    border: 1px solid var(--aqua);
+.about__img_cntr,
+.about__img,
+.about__img_frame,
+.about__img_background {
+    width: 300px;
+    height: 300px;
     border-radius: var(--border-radius);
-    padding: 1.25rem 1.75rem;
-    font-size: 1.3rem;
-    cursor: pointer;
-    margin-top: 4rem;
 }
 
-.about__btn:hover {
-    background-color: var(--aqua-transparent);
+.about__img_cntr {
+    background: linear-gradient(to top left, var(--navy), var(--blue)), url('../../assets/pict/alexa.jpg') 0 0 no-repeat fixed;
+    position: relative;
+}
+
+.about__img {
+    opacity: 0.7;
+    position: absolute;
+    left: -1rem;
+    top: -1rem;
+    z-index: 3;
+}
+
+.about__img:hover {
+    opacity: 1;
+}
+
+.about__img_frame {
+    border: 4px solid var(--blue);
+    z-index: 1;
+}
+
+.about__img_background {
+    position: absolute;
+    left: -1rem;
+    top: -1rem;
+    background-color: var(--blue);
+    z-index: 2;
+}
+
+@media screen and (max-width: 1024px) {
+    .about__right {
+        padding-left: 2rem;
+    }
+
+    .about__img_cntr,
+    .about__img,
+    .about__img_frame,
+    .about__img_background {
+        width: 230px;
+        height: 230px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        padding-left: 5rem;
+    }
+
+    .about__technologies_cntr {
+        margin-bottom: 2rem;
+    }
+
+    .about__content_cntr {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__img_cntr,
+    .about__img,
+    .about__img_frame,
+    .about__img_background {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about {
+        padding-left: 2rem;
+    }
+
+    .about__img_cntr,
+    .about__img,
+    .about__img_frame,
+    .about__img_background {
+        width: 250px;
+        height: 250px;
+    }
 }

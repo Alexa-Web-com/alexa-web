@@ -1,0 +1,60 @@
+.navbar__nav_elements_cntr {
+    display: flex;
+    padding-right: 4rem;
+    padding-top: 1rem;
+}
+
+.navbar__el {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    min-width: 5.5em;
+    text-align: right;
+}
+
+.navbar__el:hover {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar__nav_elements_cntr_ham_active {
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 6rem;
+        text-align: center;
+        transition: 0.3s;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .navbar__nav_elements_cntr {
+        display: none;
+    }
+
+    .navbar__el_ham_active {
+        text-decoration: none;
+        transition: 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 1rem 0;
+        background-color: var(--navy);
+        font-size: var(--fontM);
+    }
+
+    .navbar__el_ham_active:hover {
+        font-weight: bold;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar__nav_elements_cntr_ham_active {
+        top: 7rem;
+    }
+}

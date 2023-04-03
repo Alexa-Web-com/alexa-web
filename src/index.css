@@ -17,6 +17,72 @@ body {
   --aqua: turquoise;
   --aqua-transparent: rgba(64, 224, 208, 0.127);
   --pink: hotpink;
-  --border-radius: 3px;
+  --border-radius: 5px;
+  --fontXS: 1rem;
+  --fontS: 1.1rem;
+  --fontM: 1.3rem;
+  --fontL: 2rem;
+}
 
+.component {
+  max-width: 1200px;
+  width: 100%;
+  padding: 20rem 6rem 0 6rem;
+}
+
+.title {
+  font-size: var(--fontL);
+  padding-bottom: 1rem;
+  white-space: nowrap;
+}
+
+.title:hover {
+  font-weight: bold;
+}
+
+.content {
+  font-size: var(--fontM);
+  font-weight: 300;
+}
+
+.vertical_line {
+  width: 1px;
+  height: 10rem;
+  background: var(--white);
+}
+
+.horizontal_line {
+  max-height: 1px;
+  height: 1px;
+}
+
+.horizontal_line_before {
+  width: 4rem;
+  margin-right: 1rem;
+  margin-top: 1.3rem;
+}
+
+.horizontal_line_after {
+  width: 16rem;
+  margin-left: 1rem;
+  margin-top: 1.3rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .content {
+    font-size: var(--fontS);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .component {
+    padding: 18rem 5rem 0 5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .component {
+    padding: 9rem 2rem 8rem 2rem;
+  }
 }
