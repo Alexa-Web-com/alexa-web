@@ -8,7 +8,7 @@ const SideBarRight = () => {
                     i n f o  @ a l e x a - w e b . c o m
                 </a>
             </div >
-            <div className="sideBarRight__line"></div>
+            <div className="sideBarRight__line vertical_line"></div>
         </div >
     )
 }

@@ -13,13 +13,21 @@
 }
 
 .sideBarLeft__line {
-    width: 1px;
-    height: 10rem;
     margin-left: 0.8rem;
-    background: var(--white)
 }
-
 
 .sideBarLeft__icon {
     margin-top: 0.7rem;
+}
+
+@media screen and (max-width: 768px) {
+    .sideBarLeft {
+        left: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .sideBarLeft {
+        display: none;
+    }
 }

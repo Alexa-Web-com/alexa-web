@@ -1,15 +1,25 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    /* max-width: 2000px; */
     width: 100%;
     margin: auto;
-    padding: 1rem 0;
+    padding-top: 1rem;
+    background-color: var(--navy);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    transition: all 1s ease-out;
+}
+
+.navbar:hover {
+    /* transform: translateY(-5rem); */
 }
 
 .navbar__left {
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .navbar__logo {
@@ -21,6 +31,11 @@
     font-size: 3rem;
     padding-left: 2rem;
     font-weight: 300;
+    white-space: nowrap;
+}
+
+.navbar__title:hover {
+    font-weight: 400;
 }
 
 .navbar__right {
@@ -28,19 +43,93 @@
     justify-content: space-between;
 }
 
-.navbar__nav_elements_cntr {
-    display: flex;
-    padding-right: 4rem;
-    padding-top: 1rem;
-}
-
-.navbar__el {
-    font-size: 1.5rem;
-    padding: 0 1rem;
-    text-decoration: none;
-}
-
 .navbar__languages {
     display: flex;
     flex-direction: column;
+}
+
+.hamburger_cntr {
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar__title {
+        font-size: 2.6rem;
+        padding-top: 0.4rem;
+    }
+
+    .hamburger_cntr {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hamburger,
+    .hamburger_active {
+        display: block;
+        position: absolute;
+        right: 7rem;
+        left: 7rem;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        transition: all 0.3s ease-in-out;
+        background-color: var(--white);
+    }
+
+    .hamburger_active span:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger_active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger_active span:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .navbar__empty {
+        display: none;
+
+    }
+
+    .navbar__empty_ham_active {
+        height: 100vh;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        min-height: 6rem;
+    }
+
+    .navbar__left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar__logo {
+        width: 4rem;
+        margin-left: 0;
+    }
+
+    .navbar__title {
+        font-size: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0;
+        z-index: 55;
+
+    }
+
+
 }

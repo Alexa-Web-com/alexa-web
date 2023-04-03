@@ -2,9 +2,9 @@
     max-width: 1200px;
     width: 100%;
     margin: auto;
-    margin-top: 10rem;
+    /* margin-top: 10rem; */
 }
 
-.home>* {
-    margin: 5rem 0;
-}
+/* .home>* {
+    margin: 8rem 0;
+} */

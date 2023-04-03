@@ -1,0 +1,65 @@
+.intro__hello {
+    color: var(--aqua);
+    font-size: var(--fontM);
+}
+
+.intro__name {
+    font-size: 4rem;
+    font-weight: 500;
+    margin: 1rem 0;
+    font-family: Mynerve;
+}
+
+.intro__desc_top {
+    font-size: var(--fontL);
+    margin-bottom: 1rem;
+}
+
+.intro__desc_add {
+    font-weight: 300;
+    max-width: 600px;
+    width: 100%;
+}
+
+.intro__btn {
+    color: var(--aqua);
+    background-color: transparent;
+    border: 1px solid var(--aqua);
+    border-radius: var(--border-radius);
+    padding: 1.25rem 1.75rem;
+    font-size: var(--fontS);
+    cursor: pointer;
+    margin-top: 4rem;
+}
+
+.intro__btn:hover {
+    background-color: var(--aqua-transparent);
+}
+
+@media screen and (max-width: 768px) {
+    .intro__hello {
+        font-size: var(--fontS);
+    }
+
+    .intro__name {
+        font-size: 3.5rem;
+    }
+
+    .intro__desc_top {
+        font-size: 1.5rem;
+    }
+
+    .intro__btn {
+        font-size: var(--fontXS);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .intro__name {
+        font-size: 3rem;
+    }
+
+    .intro__desc_top {
+        font-size: var(--fontM);
+    }
+}

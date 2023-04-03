@@ -35,7 +35,7 @@ const SideBarLeft = () => {
                     </a>
                 </li>
             </ul>
-            <div className="sideBarLeft__line"></div>
+            <div className="sideBarLeft__line vertical_line"></div>
         </div>
     )
 }
