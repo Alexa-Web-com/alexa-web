@@ -43,7 +43,7 @@ export const DICT = {
         navbarProjects: "Projekty",
         navbarContact: "Kontakt",
 
-        introHello: "Cześć, nazywam się",
+        introHello: "Hej, nazywam się",
         introName: "Aleksandra Wilczyńska",
         introDescTopOne: "I'm ",
         introDescTopTwo: "Front-end Developer ",

@@ -9,29 +9,29 @@ const SideBarLeft = () => {
     return (
         <div className='sideBarLeft'>
             <ul className='sideBarLeft__icons_cntr'>
-                <li className='sideBarLeft__icon'>
+                <li className='sideBarLeft__icon_wrapper'>
                     <a href=''>
-                        <img src={github} alt='github logo' />
+                        <div className='sideBarLeft__icon sideBarLeft__icon_github'></div>
                     </a>
                 </li>
-                <li className='sideBarLeft__icon'>
+                <li className='sideBarLeft__icon_wrapper'>
                     <a href=''>
-                        <img src={linkedin} alt='linkedin logo' />
+                        <div className='sideBarLeft__icon sideBarLeft__icon_linkedin'></div>
                     </a>
                 </li>
-                <li className='sideBarLeft__icon'>
+                <li className='sideBarLeft__icon_wrapper'>
                     <a href=''>
-                        <img src={facebook} alt='facebook logo' />
+                        <div className='sideBarLeft__icon sideBarLeft__icon_facebook'></div>
                     </a>
                 </li>
-                <li className='sideBarLeft__icon'>
+                <li className='sideBarLeft__icon_wrapper'>
                     <a href=''>
-                        <img src={whatsapp} alt='whatsapp logo' />
+                        <div className='sideBarLeft__icon sideBarLeft__icon_whatsapp'></div>
                     </a>
                 </li>
-                <li className='sideBarLeft__icon'>
+                <li className='sideBarLeft__icon_wrapper'>
                     <a href=''>
-                        <img src={telegram} alt='telegram logo' />
+                        <div className='sideBarLeft__icon sideBarLeft__icon_telegram'></div>
                     </a>
                 </li>
             </ul>

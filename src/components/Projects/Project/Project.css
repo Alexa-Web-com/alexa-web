@@ -89,20 +89,30 @@
     display: flex;
 }
 
+.projects__icon_wrapper {
+    list-style: none;
+    /* margin-top: 0.1rem;
+    transition: margin-bottom 1s ease-in; */
+}
+
+.projects__icon_wrapper:hover,
+.projects__icon_wrapper:focus {
+    /* margin-bottom: 0.1rem;
+    margin-top: 0; */
+}
+
 .projects__linkIcons_odd {
     align-self: flex-end;
 }
 
 .project__icon {
     list-style: none;
-    margin: 0.5rem;
-}
-
-.project__icon {
+    margin: 0.5rem 0.7rem;
     display: inline-block;
     width: 24px;
     height: 24px;
     background-size: cover;
+    margin-top: 0.1rem;
 }
 
 .project__icon_github {
@@ -111,7 +121,9 @@
 
 .project__icon_github:hover,
 .project__icon_github:focus {
-    background-image: url(../../../assets/app_logo/github-colored.svg);
+    background-image: url(../../../assets/app_logo/github-colored-aqua.svg);
+    margin-bottom: 0.1rem;
+    margin-top: 0;
 }
 
 .project__icon_external_link {
@@ -120,7 +132,9 @@
 
 .project__icon_external_link:hover,
 .project__icon_external_link:focus {
-    background-image: url(../../../assets/app_logo/external-link-colored.svg);
+    background-image: url(../../../assets/app_logo/external-link-colored-aqua.svg);
+    margin-bottom: 0.1rem;
+    margin-top: 0;
 }
 
 

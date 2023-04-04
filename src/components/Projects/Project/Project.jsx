@@ -2,10 +2,6 @@ import './Project.css'
 import { DICT } from '../../../utils/dict'
 import { useContext } from 'react'
 import { ContextLanguage } from '../../../context/ContextLanguage'
-import github from '../../../assets/app_logo/github.svg'
-import externalLink from '../../../assets/app_logo/external-link.svg'
-import github_colored from '../../../assets/app_logo/github-colored.svg'
-import externalLink_colored from '../../../assets/app_logo/external-link-colored.svg'
 
 const Project = (props) => {
     const [lang,] = useContext(ContextLanguage)
@@ -37,14 +33,18 @@ const Project = (props) => {
                             <div key={index} className='project__technology'>{technology}</div>
                         )}
                     </div>
-                    <div className={props.isPictOnLeft ? 'projects__linkIcons projects__linkIcons_odd' : 'projects__linkIcons projects__linkIcons_even'}>
-                        <a href=''>
-                            <div className='project__icon project__icon_github'></div>
-                        </a>
-                        <a href=''>
-                            <div className='project__icon project__icon_external_link'></div>
-                        </a>
-                    </div>
+                    <ul className={props.isPictOnLeft ? 'projects__linkIcons projects__linkIcons_odd' : 'projects__linkIcons projects__linkIcons_even'}>
+                        <li className='projects__icon_wrapper'>
+                            <a href=''>
+                                <div className='project__icon project__icon_github'></div>
+                            </a>
+                        </li>
+                        <li className='projects__icon_wrapper'>
+                            <a href=''>
+                                <div className='project__icon project__icon_external_link'></div>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
             {!props.isPictOnLeft &&

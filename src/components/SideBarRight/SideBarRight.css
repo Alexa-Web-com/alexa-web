@@ -21,6 +21,12 @@
     font-family: var(--fonts2)
 }
 
+.sideBarRight__email:hover,
+.sideBarRight__email:focus {
+    color: var(--pink);
+    font-weight: 600;
+}
+
 .sideBarRight__line {
     position: fixed;
     right: 3rem;

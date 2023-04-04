@@ -16,9 +16,69 @@
     margin-left: 0.8rem;
 }
 
-.sideBarLeft__icon {
+.sideBarLeft__icon_wrapper {
     margin-top: 1.7rem;
 }
+
+.sideBarLeft__icon_wrapper:hover,
+.sideBarLeft__icon_wrapper:focus {
+    padding-bottom: 0.05rem;
+    margin-top: 1.65rem;
+}
+
+.sideBarLeft__icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+}
+
+.sideBarLeft__icon_github {
+    background-image: url(../../assets/app_logo/github.svg);
+}
+
+.sideBarLeft__icon_github:hover,
+.sideBarLeft__icon_github:focus {
+    background-image: url(../../assets/app_logo/github-colored-pink.svg);
+}
+
+.sideBarLeft__icon_linkedin {
+    background-image: url(../../assets/app_logo/linkedin.svg);
+}
+
+.sideBarLeft__icon_linkedin:hover,
+.sideBarLeft__icon_linkedin:focus {
+    background-image: url(../../assets/app_logo/linkedin-colored-pink.svg);
+
+}
+
+.sideBarLeft__icon_facebook {
+    background-image: url(../../assets/app_logo/facebook.svg);
+}
+
+.sideBarLeft__icon_facebook:hover,
+.sideBarLeft__icon_facebook:focus {
+    background-image: url(../../assets/app_logo/facebook-colored-pink.svg);
+}
+
+.sideBarLeft__icon_whatsapp {
+    background-image: url(../../assets/app_logo/whatsapp.svg);
+}
+
+.sideBarLeft__icon_whatsapp:hover,
+.sideBarLeft__icon_whatsapp:focus {
+    background-image: url(../../assets/app_logo/whatsapp-colored-pink.svg);
+}
+
+.sideBarLeft__icon_telegram {
+    background-image: url(../../assets/app_logo/telegram.svg);
+}
+
+.sideBarLeft__icon_telegram:hover,
+.sideBarLeft__icon_telegram:focus {
+    background-image: url(../../assets/app_logo/telegram-colored-pink.svg);
+}
+
 
 @media screen and (max-width: 768px) {
     .sideBarLeft {
