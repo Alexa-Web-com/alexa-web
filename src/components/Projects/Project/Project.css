@@ -1,5 +1,6 @@
 .project {
     display: flex;
+    flex-direction: row;
     padding: 2rem 0 8rem 0;
     width: 100%;
 }
@@ -9,6 +10,10 @@
     width: 100%;
     box-shadow: 5px 5px 5px rgb(1, 1, 33);
     border-radius: var(--border-radius);
+}
+
+.project__background_mobile {
+    display: none;
 }
 
 .project__cntr_odd,
@@ -24,12 +29,10 @@
     align-items: flex-end;
 }
 
-.project__cntr_even {
-    align-items: flex-start;
-}
-
 .project__featured_project {
-    font-family: var(--fonts2)
+    font-family: var(--fonts2);
+    font-style: italic;
+    color: var(--aqua);
 }
 
 .project__title {
@@ -40,7 +43,7 @@
 
 .project__title_link {
     text-decoration: none;
-    color: var(--aqua);
+    color: white;
     text-decoration: underline;
 }
 
@@ -48,6 +51,11 @@
     text-decoration: none;
     color: rgb(3, 255, 230);
     text-decoration: underline;
+}
+
+.project__details {
+    display: flex;
+    flex-direction: column;
 }
 
 .project__desc {
@@ -61,6 +69,10 @@
     border-radius: var(--border-radius)
 }
 
+.project__desc_odd {
+    align-self: flex-end;
+}
+
 .project__technologies {
     display: flex;
     justify-content: space-around;
@@ -69,13 +81,16 @@
 
 .project__technology {
     padding: 2rem 0;
-
+    white-space: nowrap;
     font-size: var(--fontXS);
-
 }
 
 .projects__linkIcons {
     display: flex;
+}
+
+.projects__linkIcons_odd {
+    align-self: flex-end;
 }
 
 .project__icon {
@@ -83,35 +98,98 @@
     margin: 0.5rem;
 }
 
-.project__icon:hover {}
+.project__icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+}
 
-@media screen and (max-width: 1200px) {}
+.project__icon_github {
+    background-image: url(../../../assets/app_logo/github.svg);
+}
 
-@media screen and (max-width: 1024px) {}
+.project__icon_github:hover,
+.project__icon_github:focus {
+    background-image: url(../../../assets/app_logo/github-colored.svg);
+}
+
+.project__icon_external_link {
+    background-image: url(../../../assets/app_logo/external-link.svg);
+}
+
+.project__icon_external_link:hover,
+.project__icon_external_link:focus {
+    background-image: url(../../../assets/app_logo/external-link-colored.svg);
+}
+
 
 @media screen and (max-width: 768px) {
     .project {
         flex-direction: column;
-        width: 100%;
         align-items: center;
-        padding-left: 1rem;
+        padding: 2rem 0 16rem 0;
+        position: relative;
     }
 
-    .project__cntr_odd,
+    .project__background {
+        display: none;
+    }
+
+    .project__background_mobile {
+        display: block;
+        position: absolute;
+        top: 6rem;
+        right: -0.5rem;
+        z-index: 1;
+    }
+
+    .project__background_mobile_img {
+        max-width: 800px;
+        width: 100%;
+        border-radius: var(--border-radius);
+    }
+
+    /* .project__cntr_odd,
     .project__cntr_even {
         align-items: flex-start;
-        width: 100%;
-    }
+    } */
 
-    .project__background_img {
-        max-width: 500px;
+    .project__details {
+        position: absolute;
+        top: 5.4rem;
+        left: -0.5rem;
+        z-index: 10;
+        background-color: rgba(46, 61, 146, 0.7);
+        border-radius: var(--border-radius);
+        box-shadow: 5px 5px 5px rgb(1, 1, 33);
         width: 100%;
+        margin: auto;
+        padding: 1rem 0.8rem 0 1.2rem;
+
     }
 
     .project__desc {
-        position: static;
         width: 100%;
+        padding: 0;
+        box-shadow: 0 0 0;
+        font-size: var(--fontXS);
+        background-color: transparent;
     }
+
+    .project__technologies {
+        padding: 1rem 0;
+    }
+
+
+    .project__technology {
+        padding: 0;
+        font-size: 0.8rem;
+
+    }
+
+    .projects__linkIcons {}
+
 }
 
 @media screen and (max-width: 480px) {}

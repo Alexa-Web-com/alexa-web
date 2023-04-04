@@ -21,7 +21,7 @@ export const DICT = {
         aboutDescElTree: "adipisci. Ipsam id, vel sapiente aspernatur perspiciatis tenetur soluta. ",
         aboutDescElFour: "Here are a few technologies I've been working with recently: ",
 
-        projectsFeaturedProject: "Featured Project",
+        projectsFeaturedProject: "FEATURED PROJECT",
 
         projectsProjectTitleSW: "Star Wars Fans",
         projectsProjectDescSW: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
@@ -57,7 +57,7 @@ export const DICT = {
         aboutDescElTree: "adipisci. Ipsam id, vel sapiente aspernatur perspiciatis tenetur soluta. ",
         aboutDescElFour: "Kilka technologii, w których ostatnio pracowałam: ",
 
-        projectsFeaturedProject: "Wykonany Projekt",
+        projectsFeaturedProject: "WYKONANY PROJEKT",
 
         projectsProjectTitleSW: "Star Wars Fans",
         projectsProjectDescSW: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
