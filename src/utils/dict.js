@@ -35,6 +35,16 @@ export const DICT = {
         projectsProjectTitleBeautyS: "Beauty Studio",
         projectsProjectDescBeautyS: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
 
+        contactFormTitle: "Contact Me!",
+        contactFormUserNameInputPlaceholder: "Your First Name and Surname",
+        contactFormUserEmailInputPlaceholder: "Your email address",
+        contactFormUserMessageInputPlaceholder: "Your message",
+        contactFormSendBtn: "Send",
+        contactSentMessageFromPage: "Your Message has been sent!",
+        contactNameInvalid: "Please enter the correct details",
+        contactEmailInvalid: "Email is invalid",
+        contactMessageInvalid: "Your message must contain at least 5 characters",
+
     },
 
     pl: {
@@ -70,5 +80,16 @@ export const DICT = {
 
         projectsProjectTitleBeautyS: "Beauty Studio",
         projectsProjectDescBeautyS: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
+
+        contactFormTitle: "Skontaktuj się ze mną!",
+        contactFormUserNameInputPlaceholder: "Twoje Imię i Nazwisko",
+        contactFormUserEmailInputPlaceholder: "Twoj adres email",
+        contactFormUserMessageInputPlaceholder: "Twoja wiadomość",
+        contactFormSendBtn: "Wyślij",
+        contactSentMessageFromPage: "Twoja wiadomość została wysłana!",
+        contactNameInvalid: "Podaj prawidłowe dane",
+        contactEmailInvalid: "Adres email jest nieprawidłowy",
+        contactMessageInvalid: "Twoja wiadomość musi zawierać przynajmniej 5 znaków",
+
     }
 }
