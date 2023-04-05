@@ -12,6 +12,7 @@ const Project = (props) => {
                 <div className='project__background'>
                     <figure className='project__background_figure'>
                         <img src={props.project.pict} alt='app screencapture' className='project__background_img' />
+                        <div className='project__img_background'></div>
                     </figure>
                 </div>}
 
@@ -35,12 +36,13 @@ const Project = (props) => {
                     </div>
                     <ul className={props.isPictOnLeft ? 'projects__linkIcons projects__linkIcons_odd' : 'projects__linkIcons projects__linkIcons_even'}>
                         <li className='projects__icon_wrapper'>
-                            <a href=''>
-                                <div className='project__icon project__icon_github'></div>
-                            </a>
+                            {props.project.gitHubIconLink &&
+                                <a href={props.project.gitHubIconLink}>
+                                    <div className='project__icon project__icon_github'></div>
+                                </a>}
                         </li>
                         <li className='projects__icon_wrapper'>
-                            <a href=''>
+                            <a href={props.project.directLink}>
                                 <div className='project__icon project__icon_external_link'></div>
                             </a>
                         </li>
@@ -51,6 +53,7 @@ const Project = (props) => {
                 <div className='project__background'>
                     <figure className='project__background_figure'>
                         <img src={props.project.pict} alt='app screencapture' className='project__background_img' />
+                        <div className='project__img_background'></div>
                     </figure>
                 </div>}
         </div >

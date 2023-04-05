@@ -7,6 +7,7 @@ import StarWarsFansScreenshot from '../../assets/my_app_screenshots/StarWarsFans
 import YourWeatherScreenshot from '../../assets/my_app_screenshots/YourWeather.jpg'
 import StudioWWWScreenshot from '../../assets/my_app_screenshots/StudioWWW.jpg'
 import BeautyStudioScreenshot from '../../assets/my_app_screenshots/BeautyStudio.jpg'
+import TatarczukScreenshot from '../../assets/my_app_screenshots/Tatarczuk.jpg'
 
 const Projects = () => {
     const [lang,] = useContext(ContextLanguage)
@@ -17,7 +18,7 @@ const Projects = () => {
             title: DICT[lang].projectsProjectTitleSW,
             desc: DICT[lang].projectsProjectDescSW,
             technologies: ["VS Code", "HTML", "CSS", "JavaScript", "React", "GitHub",],
-            gitHubIconLink: '',
+            gitHubIconLink: 'https://github.com/Alexa-Web-com/star-wars-fans',
             directLink: 'https://alexa-web-com.github.io/star-wars-fans/',
         },
         {
@@ -25,7 +26,7 @@ const Projects = () => {
             title: DICT[lang].projectsProjectTitleMW,
             desc: DICT[lang].projectsProjectDescMW,
             technologies: ["VS Code", "HTML", "CSS", "JavaScript", "React", "GitHub",],
-            gitHubIconLink: '',
+            gitHubIconLink: 'https://github.com/Alexa-Web-com/wheather-forecast',
             directLink: 'https://alexa-web-com.github.io/wheather-forecast/',
         },
         {
@@ -43,6 +44,15 @@ const Projects = () => {
             technologies: ["VS Code", "HTML", "CSS", "???"],
             gitHubIconLink: null,
             directLink: 'https://www.beautystudio.com.pl/',
+        },
+
+        {
+            pict: TatarczukScreenshot,
+            title: DICT[lang].projectsProjectTitleTatarczuk,
+            desc: DICT[lang].projectsProjectDescTatarczuk,
+            technologies: ["VS Code", "HTML", "CSS", "JavaScript", "React"],
+            gitHubIconLink: 'TODO',
+            directLink: 'https://www.tatarczuk.com.pl/',
         },
     ]
 

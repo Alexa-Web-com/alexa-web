@@ -27,7 +27,7 @@ const About = () => {
                         </ul>
                         <ul className='about__desc_el about__desc_ul about__desc_right_col'>
                             <li className='about__desc_el_li'>React</li>
-                            <li className='about__desc_el_li'>Node.js</li>
+                            <li className='about__desc_el_li'>...</li>
                             <li className='about__desc_el_li'>GitHub</li>
                         </ul>
                     </div>

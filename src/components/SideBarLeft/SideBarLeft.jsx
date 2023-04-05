@@ -1,36 +1,48 @@
 import './SideBarLeft.css'
-import github from '../../assets/app_logo/github.svg'
-import linkedin from '../../assets/app_logo/linkedin.svg'
-import facebook from '../../assets/app_logo/facebook.svg'
-import whatsapp from '../../assets/app_logo/whatsapp.svg'
-import telegram from '../../assets/app_logo/telegram.svg'
 
 const SideBarLeft = () => {
     return (
         <div className='sideBarLeft'>
             <ul className='sideBarLeft__icons_cntr'>
                 <li className='sideBarLeft__icon_wrapper'>
-                    <a href=''>
+                    <a href='https://github.com/Alexa-Web-com'>
                         <div className='sideBarLeft__icon sideBarLeft__icon_github'></div>
                     </a>
                 </li>
                 <li className='sideBarLeft__icon_wrapper'>
-                    <a href=''>
+                    <a href='https://www.linkedin.com/in/aleksandrawilczynska'>
                         <div className='sideBarLeft__icon sideBarLeft__icon_linkedin'></div>
                     </a>
                 </li>
                 <li className='sideBarLeft__icon_wrapper'>
-                    <a href=''>
-                        <div className='sideBarLeft__icon sideBarLeft__icon_facebook'></div>
+                    <a href='https://goo.gl/maps/aKT5avg7X4XXGBuA6'
+                        target='_blank'
+                        rel='noreferrer'
+                    >
+                        <div className='sideBarLeft__icon sideBarLeft__icon_location'></div>
                     </a>
                 </li>
                 <li className='sideBarLeft__icon_wrapper'>
-                    <a href=''>
+                    <a href='tel:+48887638906'
+                    // target='_blank'
+                    // rel='noreferrer'
+                    >
+                        <div className='sideBarLeft__icon sideBarLeft__icon_phone'></div>
+                    </a>
+                </li>
+                <li className='sideBarLeft__icon_wrapper'>
+                    <a href='https://wa.me/48887638906'
+                        target='_blank'
+                        rel='noreferrer'
+                    >
                         <div className='sideBarLeft__icon sideBarLeft__icon_whatsapp'></div>
                     </a>
                 </li>
                 <li className='sideBarLeft__icon_wrapper'>
-                    <a href=''>
+                    <a href='https://t.me/+48887638906'
+                        target='_blank'
+                        rel='noreferrer'
+                    >
                         <div className='sideBarLeft__icon sideBarLeft__icon_telegram'></div>
                     </a>
                 </li>
