@@ -24,7 +24,11 @@ const Navbar = () => {
     return (
         <div className='navbar'>
             <div className='navbar__left'
-                onClick={() => scroll('intro')}>
+                onClick={() => {
+                    scroll('intro')
+                    setIsHamburgerActive(false)
+                }
+                }>
                 <figure>
                     <img src={logo} alt='logo' width='25rem' className='navbar__logo' />
                 </figure>

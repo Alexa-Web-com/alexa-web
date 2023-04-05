@@ -18,7 +18,8 @@
     font-weight: 300;
     text-decoration: none;
     color: white;
-    font-family: var(--fonts2)
+    font-family: var(--fonts2);
+    letter-spacing: 3px;
 }
 
 .sideBarRight__email:hover,
@@ -42,10 +43,34 @@
     .sideBarRight__line {
         right: 2rem;
     }
+
+
+    .sideBarRight__email_wrapper {
+        bottom: 3rem;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .sideBarRight {
+        position: relative;
+        left: 0;
+        bottom: 0;
+    }
+
+    .sideBarRight__email_wrapper {
+        right: 0;
+    }
+
+    .sideBarRight__line {
         display: none;
+    }
+
+    .sideBarRight__email_wrapper {
+        transform: none;
+        position: relative;
+        left: 0;
+        right: 0;
+        text-align: center;
+        bottom: 5rem;
     }
 }

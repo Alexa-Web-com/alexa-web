@@ -2,6 +2,7 @@ import './Intro.css'
 import { DICT } from '../../utils/dict'
 import { useContext } from 'react'
 import { ContextLanguage } from '../../context/ContextLanguage'
+import { scroll } from '../../utils/scroll'
 
 const Intro = () => {
     const [lang,] = useContext(ContextLanguage)
@@ -12,7 +13,8 @@ const Intro = () => {
             <p className='intro__name'>{DICT[lang].introName}</p>
             <p className='intro__desc_top'>{DICT[lang].introDescTopOne} <span style={{ color: 'var(--pink)' }}>{DICT[lang].introDescTopTwo}</span>{DICT[lang].aboutDescTopTree}</p>
             <p className='intro__desc_add content'>{DICT[lang].introDescAdd}</p>
-            <button className='intro__btn'>{DICT[lang].introBtn}</button>
+            <button className='intro__btn'
+                onClick={() => scroll('projects')}>{DICT[lang].introBtn}</button>
         </div>
 
     )

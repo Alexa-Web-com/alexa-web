@@ -15,6 +15,10 @@ const NavEl = (props) => {
                 onClick={() => scroll('about')}
             >{DICT[lang].navbarAbout}</div>
             <div className={props.isHamburgerActive ? 'navbar__el_ham_active' : 'navbar__el'}
+                style={{ color: 'white' }}
+                onClick={() => scroll('skills')}
+            >{DICT[lang].navbarSkills}</div>
+            <div className={props.isHamburgerActive ? 'navbar__el_ham_active' : 'navbar__el'}
                 style={{ color: 'var(--aqua)' }}
                 onClick={() => scroll('projects')}
             >{DICT[lang].navbarProjects}</div>

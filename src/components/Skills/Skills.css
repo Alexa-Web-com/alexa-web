@@ -7,63 +7,22 @@
 }
 
 .skills__line {
-    background-color: var(--aqua);
+    background-color: white;
 }
 
 .skills__title {
-    color: var(--aqua);
-}
-
-.skills__content_cntr {
-    display: flex;
-    font-size: var(--fontM);
-    font-weight: 200;
+    color: white;
 }
 
 
-.skills__content_left {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+@media screen and (max-width: 768px) {
+    .skills {
+        padding-left: 5rem;
+    }
 }
 
-.skills__button {
-    color: var(--white);
-    background-color: transparent;
-    border: 0;
-    border-radius: none;
-    cursor: pointer;
-    padding: 1.25rem 1.75rem;
-}
-
-.skills__button_active {
-    color: var(--white);
-    background-color: transparent;
-    border: 0;
-    border-radius: none;
-    cursor: pointer;
-    padding: 1.25rem 1.75rem;
-    border-left: 2px solid var(--aqua);
-}
-
-
-.skills__button_name {
-    font-size: var(--fontM);
-    font-weight: 200;
-    text-align: left;
-    padding-left: 1rem;
-
-}
-
-.skills__button_name_active {
-    color: var(--aqua);
-    font-size: var(--fontM);
-    font-weight: 200;
-    text-align: left;
-    padding-left: 1rem;
-
-}
-
-.skills__content_right {
-    flex: 3
+@media screen and (max-width: 480px) {
+    .skills {
+        padding-left: 2rem;
+    }
 }

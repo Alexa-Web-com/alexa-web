@@ -13,7 +13,7 @@ export const DICT = {
         introDescTopTwo: "Front-end Developer ",
         introDescTopTree: "based in Gdynia, Poland.",
         introDescAdd: "I'm passionate about ...ing Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
-        introBtn: "Check out my coś...",
+        introBtn: "Check out my projects",
 
         aboutDescElOne: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, tenetur dolorum rem doloremque officia, inventore ullam sed dolorem nesciunt ab nam, hic cupiditate. Odio eveniet, quod aperiam placeat libero repellendus?",
         aboutDescElTwo: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus culpa ",
@@ -35,8 +35,11 @@ export const DICT = {
         projectsProjectTitleBeautyS: "Beauty Studio",
         projectsProjectDescBeautyS: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
 
+        projectsProjectTitleTatarczuk: "Tatarczuk Services",
+        projectsProjectDescTatarczuk: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
+
         contactFormTitle: "Contact Me!",
-        contactFormUserNameInputPlaceholder: "Your First Name and Surname",
+        contactFormUserNameInputPlaceholder: "Your Name",
         contactFormUserEmailInputPlaceholder: "Your email address",
         contactFormUserMessageInputPlaceholder: "Your message",
         contactFormSendBtn: "Send",
@@ -59,7 +62,7 @@ export const DICT = {
         introDescTopTwo: "Front-end Developer ",
         introDescTopTree: "based in Gdynia, Poland.",
         introDescAdd: "I'm passionate about ...ing Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
-        introBtn: "Check out my coś...",
+        introBtn: "Sprawdź moje projekty",
 
         aboutDescElOne: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, tenetur dolorum rem doloremque officia, inventore ullam sed dolorem nesciunt ab nam, hic cupiditate. Odio eveniet, quod aperiam placeat libero repellendus?",
         aboutDescElTwo: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus culpa ",
@@ -81,8 +84,12 @@ export const DICT = {
         projectsProjectTitleBeautyS: "Beauty Studio",
         projectsProjectDescBeautyS: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
 
+        projectsProjectTitleTatarczuk: "Tatarczuk Usługi",
+        projectsProjectDescTatarczuk: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
+
+
         contactFormTitle: "Skontaktuj się ze mną!",
-        contactFormUserNameInputPlaceholder: "Twoje Imię i Nazwisko",
+        contactFormUserNameInputPlaceholder: "Twoje Imię",
         contactFormUserEmailInputPlaceholder: "Twoj adres email",
         contactFormUserMessageInputPlaceholder: "Twoja wiadomość",
         contactFormSendBtn: "Wyślij",

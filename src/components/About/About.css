@@ -60,7 +60,7 @@
 }
 
 .about__img_cntr {
-    background: linear-gradient(to top left, var(--navy), var(--blue)), url('../../assets/pict/alexa.jpg') 0 0 no-repeat fixed;
+    background: content-box linear-gradient(to top left, var(--navy), var(--blue));
     position: relative;
 }
 
@@ -90,6 +90,12 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .about__desc_el_li:hover {
+        color: white;
+        list-style-image: url('../../assets/list_markers/check-circled-outline.svg');
+    }
+
+
     .about__right {
         padding-left: 2rem;
     }
@@ -100,6 +106,10 @@
     .about__img_background {
         width: 230px;
         height: 230px;
+    }
+
+    .about__img {
+        opacity: 1;
     }
 }
 
