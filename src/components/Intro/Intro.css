@@ -8,11 +8,40 @@
     font-family: var(--fonts2)
 }
 
+.intro__hello_mobile {
+    display: none;
+}
+
 .intro__name {
     font-size: 4rem;
     font-weight: 500;
     margin: 1rem 0;
     font-family: Mynerve;
+    display: flex;
+}
+
+.intro__name_fullname {
+    /* text animation */
+    overflow: hidden;
+    white-space: nowrap;
+    margin: auto 0;
+    animation:
+        typing 4s linear;
+}
+
+.intro__name_firstName {
+    display: none;
+}
+
+/* The typing effect */
+@keyframes typing {
+    0% {
+        width: 0
+    }
+
+    100% {
+        width: 100%
+    }
 }
 
 .intro__desc_top {
@@ -22,7 +51,7 @@
 
 .intro__desc_add {
     font-weight: 300;
-    max-width: 600px;
+    max-width: 640px;
     width: 100%;
 }
 
@@ -44,11 +73,32 @@
 
 @media screen and (max-width: 768px) {
     .intro__hello {
+        display: none;
+    }
+
+    .intro__hello_mobile {
+        display: block;
+        color: var(--aqua);
         font-size: var(--fontS);
+        font-family: var(--fonts2)
     }
 
     .intro__name {
         font-size: 3.5rem;
+    }
+
+    .intro__name_fullname {
+        display: none;
+    }
+
+    .intro__name_firstName {
+        display: block;
+        /* text animation */
+        overflow: hidden;
+        white-space: nowrap;
+        margin: auto 0;
+        animation:
+            typing 4s linear;
     }
 
     .intro__desc_top {

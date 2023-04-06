@@ -13,8 +13,7 @@ body {
 :root {
   --navy: rgb(10, 10, 50);
   --lighternavy: rgb(30, 30, 100);
-  --lighternavy2: rgb(40, 40, 100);
-  /* --lighternavy2: rgb(100, 149, 237); */
+  --shadowednavy: rgb(109, 109, 143);
 
   --blue: cornflowerblue;
   --aqua: turquoise;
@@ -25,7 +24,7 @@ body {
   --fonts2: Inconsolata;
   --fontXS: 1rem;
   --fontS: 1.1rem;
-  --fontM: 1.3rem;
+  --fontM: 1.2rem;
   --fontL: 2rem;
 }
 
@@ -48,6 +47,8 @@ body {
 .content {
   font-size: var(--fontM);
   font-weight: 300;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .vertical_line {

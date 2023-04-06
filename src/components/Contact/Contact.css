@@ -73,7 +73,7 @@ input::placeholder {
     position: absolute;
     top: 4px;
     left: 5px;
-    color: var(--pink);
+    color: var(--shadowednavy);
     font-family: var(--fonts2);
 
 }
@@ -87,7 +87,7 @@ textarea {
 }
 
 textarea::placeholder {
-    color: var(--pink)
+    color: var(--shadowednavy)
 }
 
 .contact__form_send_btn,

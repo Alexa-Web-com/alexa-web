@@ -17,22 +17,22 @@ const About = () => {
             <div className='about__content_cntr'>
                 <div className='about__desc content'>
                     <p className='about__desc_el'>{DICT[lang].aboutDescElOne}</p>
-                    <p className='about__desc_el'>{DICT[lang].aboutDescElTwo}<span style={{ color: 'var(--blue)' }}>{DICT[lang].aboutDescElColorOne}</span>{DICT[lang].aboutDescElTree}</p>
-                    <p className='about__desc_el'>{DICT[lang].aboutDescElFour}</p>
+                    <p className='about__desc_el'>{DICT[lang].aboutDescElTwo}<span style={{ color: 'var(--blue)' }}>{DICT[lang].aboutDescElColorOne}</span>{DICT[lang].aboutDescElThree}</p>
+                    <p className='about__technologies_title'>{DICT[lang].aboutDescElFour}</p>
                     <div className='about__technologies_cntr'>
-                        <ul className='about__desc_el about__desc_ul about__desc_left_col'>
-                            <li className='about__desc_el_li'>HTML</li>
-                            <li className='about__desc_el_li'>CSS</li>
-                            <li className='about__desc_el_li'>JavaScript</li>
+                        <ul className='about__attribute_ul about__attribute_left_col'>
+                            <li className='about__attribute_el_li'>{DICT[lang].aboutAttributeOne}</li>
+                            <li className='about__attribute_el_li'>{DICT[lang].aboutAttributeTwo}</li>
+                            <li className='about__attribute_el_li'>{DICT[lang].aboutAttributeThree}</li>
                         </ul>
-                        <ul className='about__desc_el about__desc_ul about__desc_right_col'>
-                            <li className='about__desc_el_li'>React</li>
-                            <li className='about__desc_el_li'>...</li>
-                            <li className='about__desc_el_li'>GitHub</li>
+                        <ul className='about__attribute_ul about__attribute_right_col'>
+                            <li className='about__attribute_el_li'>{DICT[lang].aboutAttributeFour}</li>
+                            <li className='about__attribute_el_li'>{DICT[lang].aboutAttributeFive}</li>
+                            <li className='about__attribute_el_li'>{DICT[lang].aboutAttributeSix}</li>
                         </ul>
                     </div>
                 </div>
-                <div className='about__right'>
+                <div className='about__img_wrapper'>
                     <figure className='about__img_cntr'>
                         <img src={alexa_pict} alt='headshot' className='about__img' />
                         <div className='about__img_background'></div>

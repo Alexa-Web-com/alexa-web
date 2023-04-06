@@ -8,7 +8,10 @@ export const DICT = {
         navbarContact: "Contact",
 
         introHello: "Hello, my name is",
+        introHelloMobile: "Hello, my name is",
         introName: "Alexandra Wilczynska",
+        introFirstName: "Alexandra ",
+        introSurName: " Wilczynska",
         introDescTopOne: "I'm ",
         introDescTopTwo: "Front-end Developer ",
         introDescTopTree: "based in Gdynia, Poland.",
@@ -18,8 +21,17 @@ export const DICT = {
         aboutDescElOne: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, tenetur dolorum rem doloremque officia, inventore ullam sed dolorem nesciunt ab nam, hic cupiditate. Odio eveniet, quod aperiam placeat libero repellendus?",
         aboutDescElTwo: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus culpa ",
         aboutDescElColorOne: "obcaecati necessitatibus ",
-        aboutDescElTree: "adipisci. Ipsam id, vel sapiente aspernatur perspiciatis tenetur soluta. ",
-        aboutDescElFour: "Here are a few technologies I've been working with recently: ",
+        aboutDescElThree: "adipisci. Ipsam id, vel sapiente aspernatur perspiciatis tenetur soluta. ",
+        aboutDescElFour: "My strengths: ",
+        aboutAttributeOne: "Professionalism",
+        aboutAttributeTwo: "Higher education",
+        aboutAttributeThree: "Communicative English",
+        aboutAttributeFour: "Good workplace organization",
+        aboutAttributeFive: "Commitment",
+        aboutAttributeSix: "18 years work in a team",
+
+        skillsDesc: "Here are a few technologies I've been working with recently: ",
+
 
         projectsFeaturedProject: "FEATURED PROJECT",
 
@@ -38,7 +50,7 @@ export const DICT = {
         projectsProjectTitleTatarczuk: "Tatarczuk Services",
         projectsProjectDescTatarczuk: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
 
-        contactFormTitle: "Contact Me!",
+        contactFormTitle: "Write to me!",
         contactFormUserNameInputPlaceholder: "Your Name",
         contactFormUserEmailInputPlaceholder: "Your email address",
         contactFormUserMessageInputPlaceholder: "Your message",
@@ -57,7 +69,10 @@ export const DICT = {
         navbarContact: "Kontakt",
 
         introHello: "Hej, nazywam się",
+        introHelloMobile: "Hej, mam na imię",
         introName: "Aleksandra Wilczyńska",
+        introFirstName: "Aleksandra ",
+        introSurName: "Wilczyńska",
         introDescTopOne: "I'm ",
         introDescTopTwo: "Front-end Developer ",
         introDescTopTree: "based in Gdynia, Poland.",
@@ -67,8 +82,17 @@ export const DICT = {
         aboutDescElOne: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, tenetur dolorum rem doloremque officia, inventore ullam sed dolorem nesciunt ab nam, hic cupiditate. Odio eveniet, quod aperiam placeat libero repellendus?",
         aboutDescElTwo: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus culpa ",
         aboutDescElColorOne: "obcaecati necessitatibus ",
-        aboutDescElTree: "adipisci. Ipsam id, vel sapiente aspernatur perspiciatis tenetur soluta. ",
-        aboutDescElFour: "Kilka technologii, w których ostatnio pracowałam: ",
+        aboutDescElThree: "adipisci. Ipsam id, vel sapiente aspernatur perspiciatis tenetur soluta. ",
+        aboutDescElFour: "Moje mocne strony to: ",
+        aboutAttributeOne: "Profesjonalizm",
+        aboutAttributeTwo: "Wyższe wykształcenie",
+        aboutAttributeThree: "Komunikatywny angielski",
+        aboutAttributeFour: "Dobra organizacja pracy",
+        aboutAttributeFive: "Zaangażowanie",
+        aboutAttributeSix: "18 lat pracy w zespole",
+
+        skillsDesc: "Oto kilka technologii w których ostatnio pracowałam: ",
+
 
         projectsFeaturedProject: "WYKONANY PROJEKT",
 
@@ -88,7 +112,7 @@ export const DICT = {
         projectsProjectDescTatarczuk: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
 
 
-        contactFormTitle: "Skontaktuj się ze mną!",
+        contactFormTitle: "Napisz do mnie!",
         contactFormUserNameInputPlaceholder: "Twoje Imię",
         contactFormUserEmailInputPlaceholder: "Twoj adres email",
         contactFormUserMessageInputPlaceholder: "Twoja wiadomość",
