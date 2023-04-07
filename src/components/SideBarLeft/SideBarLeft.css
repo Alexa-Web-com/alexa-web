@@ -106,14 +106,16 @@
     .sideBarLeft {
         position: relative;
         left: 0;
+        /* bottom: 100vh; */
         bottom: 0;
         padding: 0rem 2.5rem 1rem 2.5rem;
+        background-color: var(--navy);
     }
 
 
     .sideBarLeft__icons_cntr {
         position: relative;
-        bottom: 6rem;
+        bottom: 8rem;
         flex-direction: row;
         justify-content: space-around;
     }

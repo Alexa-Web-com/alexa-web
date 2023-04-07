@@ -1,3 +1,16 @@
 .App {
     position: relative;
 }
+
+/* .backgroundPage {
+    background: url('./assets/backgroundApp/backgroundApp.jpg') center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+    .backgroundPage {
+        background-attachment: scroll;
+    }
+} */

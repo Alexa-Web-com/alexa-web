@@ -54,7 +54,9 @@
     .sideBarRight {
         position: relative;
         left: 0;
+        /* bottom: 100vh; */
         bottom: 0;
+        background-color: var(--navy);
     }
 
     .sideBarRight__email_wrapper {
@@ -71,6 +73,6 @@
         left: 0;
         right: 0;
         text-align: center;
-        bottom: 5rem;
+        bottom: 8rem;
     }
 }

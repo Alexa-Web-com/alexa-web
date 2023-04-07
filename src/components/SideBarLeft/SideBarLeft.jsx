@@ -23,10 +23,7 @@ const SideBarLeft = () => {
                     </a>
                 </li>
                 <li className='sideBarLeft__icon_wrapper'>
-                    <a href='tel:+48887638906'
-                    // target='_blank'
-                    // rel='noreferrer'
-                    >
+                    <a href='tel:+48887638906'>
                         <div className='sideBarLeft__icon sideBarLeft__icon_phone'></div>
                     </a>
                 </li>

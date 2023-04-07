@@ -1,3 +1,7 @@
+.contact {
+    padding-bottom: 10rem;
+}
+
 .contact__title_cntr {
     display: flex;
 }
@@ -110,6 +114,9 @@ textarea::placeholder {
 
 
 @media screen and (max-width: 768px) {
+    .contact {
+        padding-bottom: 3rem;
+    }
 
     .contact__background_figure {
         padding-top: 5rem;

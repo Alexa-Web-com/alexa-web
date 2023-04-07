@@ -30,8 +30,12 @@ export const DICT = {
         aboutAttributeFive: "Commitment",
         aboutAttributeSix: "18 years work in a team",
 
-        skillsDesc: "Here are a few technologies I've been working with recently: ",
-
+        skillsHTML: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, totam alias consequuntur mollitia explicabo illo.",
+        skillsCSS: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto ex autem beatae ipsum minus explicabo nostrum nesciunt earum!",
+        skillsJS: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit mollitia sequi repellat beatae quisquam.",
+        skillsReact: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, officiis, velit iure molestiae saepe tempore.",
+        skillsVSC: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae unde, magnam voluptates laudantium reprehenderit!",
+        skillsTS: "I'm working on it 😊",
 
         projectsFeaturedProject: "FEATURED PROJECT",
 
@@ -49,6 +53,9 @@ export const DICT = {
 
         projectsProjectTitleTatarczuk: "Tatarczuk Services",
         projectsProjectDescTatarczuk: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
+
+        projectsProjectTitleKetoZocha: "KetoZocha Culinary Blog",
+        projectsProjectDescKetoZocha: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
 
         contactFormTitle: "Write to me!",
         contactFormUserNameInputPlaceholder: "Your Name",
@@ -91,8 +98,12 @@ export const DICT = {
         aboutAttributeFive: "Zaangażowanie",
         aboutAttributeSix: "18 lat pracy w zespole",
 
-        skillsDesc: "Oto kilka technologii w których ostatnio pracowałam: ",
-
+        skillsHTML: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, totam alias consequuntur mollitia explicabo illo.",
+        skillsCSS: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto ex autem beatae ipsum minus explicabo nostrum nesciunt earum!",
+        skillsJS: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit mollitia sequi repellat beatae quisquam.",
+        skillsReact: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, officiis, velit iure molestiae saepe tempore.",
+        skillsVSC: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae unde, magnam voluptates laudantium reprehenderit!",
+        skillsTS: "Pracuję nad tym 😊",
 
         projectsFeaturedProject: "WYKONANY PROJEKT",
 
@@ -110,6 +121,9 @@ export const DICT = {
 
         projectsProjectTitleTatarczuk: "Tatarczuk Usługi",
         projectsProjectDescTatarczuk: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
+
+        projectsProjectTitleKetoZocha: "KetoZocha Blog Kulinarny",
+        projectsProjectDescKetoZocha: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
 
 
         contactFormTitle: "Napisz do mnie!",

@@ -8,6 +8,7 @@ import YourWeatherScreenshot from '../../assets/my_app_screenshots/YourWeather.j
 import StudioWWWScreenshot from '../../assets/my_app_screenshots/StudioWWW.jpg'
 import BeautyStudioScreenshot from '../../assets/my_app_screenshots/BeautyStudio.jpg'
 import TatarczukScreenshot from '../../assets/my_app_screenshots/Tatarczuk.jpg'
+import KetoZochaScreenshot from '../../assets/my_app_screenshots/KetoZocha.jpg'
 
 const Projects = () => {
     const [lang,] = useContext(ContextLanguage)
@@ -33,15 +34,15 @@ const Projects = () => {
             pict: StudioWWWScreenshot,
             title: DICT[lang].projectsProjectTitleStudioWWW,
             desc: DICT[lang].projectsProjectDescStudioWWW,
-            technologies: ["VS Code", "HTML", "CSS", "JavaScript", "React???",],
-            gitHubIconLink: null,
+            technologies: ["VS Code", "HTML", "CSS", "JavaScript", "React", "GitHub",],
+            gitHubIconLink: 'https://github.com/Alexa-Web-com/studio-www',
             directLink: 'https://studio-www.com/home',
         },
         {
             pict: BeautyStudioScreenshot,
             title: DICT[lang].projectsProjectTitleBeautyS,
             desc: DICT[lang].projectsProjectDescBeautyS,
-            technologies: ["VS Code", "HTML", "CSS", "???"],
+            technologies: ["VS Code", "HTML", "CSS",],
             gitHubIconLink: null,
             directLink: 'https://www.beautystudio.com.pl/',
         },
@@ -50,9 +51,19 @@ const Projects = () => {
             pict: TatarczukScreenshot,
             title: DICT[lang].projectsProjectTitleTatarczuk,
             desc: DICT[lang].projectsProjectDescTatarczuk,
-            technologies: ["VS Code", "HTML", "CSS", "JavaScript", "React"],
-            gitHubIconLink: 'TODO',
+            technologies: ["VS Code", "HTML", "CSS", "JavaScript", "React", "GitHub",],
+            gitHubIconLink: 'https://github.com/Alexa-Web-com/tatarczuk',
             directLink: 'https://www.tatarczuk.com.pl/',
+        },
+
+        {
+            pict: KetoZochaScreenshot,
+            // TODO - poprawne zdjęcie o wyjsciowej szerokosci 1396px
+            title: DICT[lang].projectsProjectTitleKetoZocha,
+            desc: DICT[lang].projectsProjectDescKetoZocha,
+            technologies: ["VS Code", "HTML", "CSS", "JavaScript", "React", "GitHub",],
+            gitHubIconLink: 'TODO',
+            directLink: 'https://www.ketozocha.pl/',
         },
     ]
 

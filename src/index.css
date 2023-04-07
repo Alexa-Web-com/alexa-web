@@ -31,7 +31,8 @@ body {
 .component {
   max-width: 1200px;
   width: 100%;
-  padding: 12rem 8rem 0 8rem;
+  margin: auto;
+  padding: 10rem 8rem 0 8rem;
 }
 
 .title {

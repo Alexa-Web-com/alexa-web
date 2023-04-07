@@ -16,18 +16,36 @@
 
 
 /*Moje */
-.skills_tools__container {
-    display: flex;
+.skills__content_desc {
+    padding-bottom: 1rem;
 }
 
-.skills_img {
-    width: 100px;
+.skills__tools__cntr {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.skills__tool_cntr {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0.8rem;
+}
+
+.skills__img {
+    width: 80px;
     margin: 1rem;
+}
+
+.skills__tool_desc {
+    font-size: var(--fontXS);
+    font-weight: 300;
+    text-align: center;
+
 }
 
 
 /*Damiana*/
-/* .skills_tools__container {
+/* .skills__tools__container {
     padding-top: 2rem;
     width: 100%;
     display: grid;
@@ -37,7 +55,7 @@
     justify-items: center;
 }
 
-.skills_tools__figure {
+.skills__tools__figure {
     width: 100%;
     height: 100%;
 } */
@@ -53,6 +71,25 @@
     flex-direction: column;
 } */
 
+@media screen and (max-width: 1024px) {
+    .skills__tools__cntr {
+        flex-direction: column;
+        margin: 0 2rem 0 0;
+    }
+
+    .skills__tool_cntr {
+        flex-direction: row;
+        margin: 0.5rem 0;
+        align-items: center;
+    }
+
+    .skills__tool_desc {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+}
+
+
 @media screen and (max-width: 768px) {
     .skills {
         padding-left: 5rem;
@@ -62,5 +99,10 @@
 @media screen and (max-width: 480px) {
     .skills {
         padding-left: 2rem;
+    }
+
+    .skills__tools__cntr {
+        flex-direction: column;
+        margin: 0 0 0 0;
     }
 }

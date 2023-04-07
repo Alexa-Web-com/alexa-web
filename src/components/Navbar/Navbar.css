@@ -3,7 +3,7 @@
     justify-content: space-between;
     width: 100%;
     margin: auto;
-    padding: 1rem 0;
+    padding: 0;
     background-color: var(--navy);
     position: fixed;
     top: 0;
@@ -11,10 +11,6 @@
     z-index: 50;
     transition: all 1s ease-out;
 }
-
-/* .navbar:hover {
-    transform: translateY(-5rem);
-} */
 
 .navbar__left {
     display: flex;
@@ -111,7 +107,7 @@
 @media screen and (max-width: 768px) {
     .navbar {
         /* min-height: 6rem; */
-        padding: 0.5rem 0;
+        padding: 0;
     }
 
     .navbar__left {
