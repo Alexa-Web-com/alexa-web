@@ -54,7 +54,7 @@ export const DICT = {
         projectsProjectTitleTatarczuk: "Tatarczuk Services",
         projectsProjectDescTatarczuk: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
 
-        projectsProjectTitleKetoZocha: "KetoZocha Culinary Blog",
+        projectsProjectTitleKetoZocha: "KetoZocha Blog",
         projectsProjectDescKetoZocha: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
 
         contactFormTitle: "Write to me!",
@@ -122,7 +122,7 @@ export const DICT = {
         projectsProjectTitleTatarczuk: "Tatarczuk Usługi",
         projectsProjectDescTatarczuk: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
 
-        projectsProjectTitleKetoZocha: "KetoZocha Blog Kulinarny",
+        projectsProjectTitleKetoZocha: "KetoZocha Blog",
         projectsProjectDescKetoZocha: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
 
 
