@@ -3,6 +3,8 @@ import { DICT } from '../../utils/dict'
 import { useState, useEffect, useContext } from 'react'
 import { ContextLanguage } from '../../context/ContextLanguage'
 import { isValidEmail } from '../../utils/isValidEmail'
+import emailjs from 'emailjs-com';
+
 
 const Contact = () => {
     const [lang,] = useContext(ContextLanguage)
@@ -43,18 +45,32 @@ const Contact = () => {
 
         if (!isFormValid()) { return }
 
-        setSentMessage(true)
+        emailjs.sendForm(process.env.REACT_APP_TO_SERVICE_ID, process.env.REACT_APP_TO_TEMPLATE_ID, e.target, process.env.REACT_APP_TO_USER_ID)
+            .then(() => {
+                // turn off spinner
+                // setIsSpinnerShow(false)
+                // TODO SPINNER
 
-        setTimeout(() => {
-            setSentMessage(false)
-        }, 1000)
+                // TODO ANIMATION
 
-        setUserName('')
-        setUserEmail('')
-        setUserMessage('')
-        setIsUserNameValid(true)
-        setIsUserEmailValid(true)
-        setIsUserMessageValid(true)
+                setSentMessage(true)
+
+                setTimeout(() => {
+                    setSentMessage(false)
+                }, 1000)
+
+                setUserName('')
+                setUserEmail('')
+                setUserMessage('')
+                setIsUserNameValid(true)
+                setIsUserEmailValid(true)
+                setIsUserMessageValid(true)
+
+            }, (error) => {
+                console.log(error.text)
+            })
+
+
     }
 
     return (
@@ -89,7 +105,8 @@ const Contact = () => {
                                     type="text"
                                     value={userName}
                                     onChange={(e) => setUserName(e.target.value)}
-                                    placeholder={DICT[lang].contactFormUserNameInputPlaceholder} />
+                                    placeholder={DICT[lang].contactFormUserNameInputPlaceholder}
+                                    name="name" />
                                 {!isUserNameValid &&
                                     <p className='contact__form_el_errMessage'>{DICT[lang].contactNameInvalid}</p>}
 
@@ -98,7 +115,8 @@ const Contact = () => {
                                     type="email"
                                     value={userEmail}
                                     onChange={(e) => setUserEmail(e.target.value)}
-                                    placeholder={DICT[lang].contactFormUserEmailInputPlaceholder} />
+                                    placeholder={DICT[lang].contactFormUserEmailInputPlaceholder}
+                                    name="email" />
                                 {!isUserEmailValid &&
                                     <p className='contact__form_el_errMessage'>{DICT[lang].contactEmailInvalid}</p>}
 
@@ -106,7 +124,8 @@ const Contact = () => {
                                     type="text"
                                     value={userMessage}
                                     onChange={(e) => setUserMessage(e.target.value)}
-                                    placeholder={DICT[lang].contactFormUserMessageInputPlaceholder} />
+                                    placeholder={DICT[lang].contactFormUserMessageInputPlaceholder}
+                                    name="message" />
                                 {!isUserMessageValid &&
                                     <p className='contact__form_el_errMessage'>{DICT[lang].contactMessageInvalid}</p>}
 
