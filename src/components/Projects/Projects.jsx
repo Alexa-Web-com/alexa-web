@@ -60,7 +60,7 @@ const Projects = () => {
             title: DICT[lang].projectsProjectTitleMW,
             desc: DICT[lang].projectsProjectDescMW,
             technologies: ["VS Code", "HTML", "CSS", "JavaScript", "React", "GitHub",],
-            gitHubIconLink: 'https://github.com/Alexa-Web-com/wheather-forecast',
+            gitHubIconLink: 'https://github.com/Alexa-Web-com/weather-forecast',
             directLink: 'https://alexa-web-com.github.io/wheather-forecast/',
         },
     ]
