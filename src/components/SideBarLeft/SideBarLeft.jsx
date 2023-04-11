@@ -10,7 +10,7 @@ const SideBarLeft = () => {
                     </a>
                 </li>
                 <li className='sideBarLeft__icon_wrapper'>
-                    <a href='https://www.linkedin.com/in/aleksandrawilczynska'>
+                    <a href='https://www.linkedin.com/in/aleksandra-wilczynska'>
                         <div className='sideBarLeft__icon sideBarLeft__icon_linkedin'></div>
                     </a>
                 </li>

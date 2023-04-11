@@ -15,7 +15,7 @@
     width: 100%;
     box-shadow: 5px 5px 5px rgb(1, 1, 33);
     border-radius: var(--border-radius);
-    transition: all 1s ease-in-out;
+    transition: all 0.5s ease;
 }
 
 .project__background_img:hover {
