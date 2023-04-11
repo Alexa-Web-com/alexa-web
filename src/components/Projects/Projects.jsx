@@ -15,6 +15,23 @@ const Projects = () => {
 
     const projectDetails = [
         {
+            pict: TatarczukScreenshot,
+            title: DICT[lang].projectsProjectTitleTatarczuk,
+            desc: DICT[lang].projectsProjectDescTatarczuk,
+            technologies: ["VS Code", "HTML", "CSS", "JavaScript", "React", "GitHub",],
+            gitHubIconLink: 'https://github.com/Alexa-Web-com/tatarczuk',
+            directLink: 'https://www.tatarczuk.com.pl/',
+        },
+        {
+            pict: KetoZochaScreenshot,
+            // TODO - poprawne zdjęcie o wyjsciowej szerokosci 1396px
+            title: DICT[lang].projectsProjectTitleKetoZocha,
+            desc: DICT[lang].projectsProjectDescKetoZocha,
+            technologies: ["VS Code", "HTML", "CSS", "JavaScript", "React", "GitHub",],
+            gitHubIconLink: null,
+            directLink: 'https://www.ketozocha.pl/',
+        },
+        {
             pict: StarWarsFansScreenshot,
             title: DICT[lang].projectsProjectTitleSW,
             desc: DICT[lang].projectsProjectDescSW,
@@ -23,12 +40,12 @@ const Projects = () => {
             directLink: 'https://alexa-web-com.github.io/star-wars-fans/',
         },
         {
-            pict: YourWeatherScreenshot,
-            title: DICT[lang].projectsProjectTitleMW,
-            desc: DICT[lang].projectsProjectDescMW,
-            technologies: ["VS Code", "HTML", "CSS", "JavaScript", "React", "GitHub",],
-            gitHubIconLink: 'https://github.com/Alexa-Web-com/wheather-forecast',
-            directLink: 'https://alexa-web-com.github.io/wheather-forecast/',
+            pict: BeautyStudioScreenshot,
+            title: DICT[lang].projectsProjectTitleBeautyS,
+            desc: DICT[lang].projectsProjectDescBeautyS,
+            technologies: ["VS Code", "HTML", "CSS",],
+            gitHubIconLink: null,
+            directLink: 'https://www.beautystudio.com.pl/',
         },
         {
             pict: StudioWWWScreenshot,
@@ -39,31 +56,12 @@ const Projects = () => {
             directLink: 'https://studio-www.com/home',
         },
         {
-            pict: BeautyStudioScreenshot,
-            title: DICT[lang].projectsProjectTitleBeautyS,
-            desc: DICT[lang].projectsProjectDescBeautyS,
-            technologies: ["VS Code", "HTML", "CSS",],
-            gitHubIconLink: null,
-            directLink: 'https://www.beautystudio.com.pl/',
-        },
-
-        {
-            pict: TatarczukScreenshot,
-            title: DICT[lang].projectsProjectTitleTatarczuk,
-            desc: DICT[lang].projectsProjectDescTatarczuk,
+            pict: YourWeatherScreenshot,
+            title: DICT[lang].projectsProjectTitleMW,
+            desc: DICT[lang].projectsProjectDescMW,
             technologies: ["VS Code", "HTML", "CSS", "JavaScript", "React", "GitHub",],
-            gitHubIconLink: 'https://github.com/Alexa-Web-com/tatarczuk',
-            directLink: 'https://www.tatarczuk.com.pl/',
-        },
-
-        {
-            pict: KetoZochaScreenshot,
-            // TODO - poprawne zdjęcie o wyjsciowej szerokosci 1396px
-            title: DICT[lang].projectsProjectTitleKetoZocha,
-            desc: DICT[lang].projectsProjectDescKetoZocha,
-            technologies: ["VS Code", "HTML", "CSS", "JavaScript", "React", "GitHub",],
-            gitHubIconLink: 'TODO',
-            directLink: 'https://www.ketozocha.pl/',
+            gitHubIconLink: 'https://github.com/Alexa-Web-com/wheather-forecast',
+            directLink: 'https://alexa-web-com.github.io/wheather-forecast/',
         },
     ]
 
