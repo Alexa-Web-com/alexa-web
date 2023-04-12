@@ -45,7 +45,9 @@ const Contact = () => {
 
         if (!isFormValid()) { return }
 
-        console.log('process.env.REACT_APP_TO_SERVICE_ID: ', process.env.REACT_APP_TO_SERVICE_ID, 'process.env.REACT_APP_TO_TEMPLATE_ID: ', process.env.REACT_APP_TO_TEMPLATE_ID, 'e.target: ', e.target, ' process.env.REACT_APP_TO_USER_ID: ', process.env.REACT_APP_TO_USER_ID)
+        // console.log('process.env.REACT_APP_TO_SERVICE_ID: ', process.env.REACT_APP_TO_SERVICE_ID, 'process.env.REACT_APP_TO_TEMPLATE_ID: ', process.env.REACT_APP_TO_TEMPLATE_ID, 'e.target: ', e.target, ' process.env.REACT_APP_TO_USER_ID: ', process.env.REACT_APP_TO_USER_ID)
+
+        console.log('e.target: ', e.target)
 
         emailjs.sendForm(process.env.REACT_APP_TO_SERVICE_ID, process.env.REACT_APP_TO_TEMPLATE_ID, e.target, process.env.REACT_APP_TO_USER_ID)
             .then(() => {
@@ -126,7 +128,7 @@ const Contact = () => {
                                     name="message" />
                                 {!isUserMessageValid &&
                                     <p className='contact__form_el_errMessage'>{DICT[lang].contactMessageInvalid}</p>}
-
+                                <input type='hidden' name="page" value="Alexa-Web.com" ></input>
                                 <button
                                     className={userName && userEmail && userMessage ? 'contact__form_send_btn' : 'contact__form_send_btn_error'}
                                     type='submit'
