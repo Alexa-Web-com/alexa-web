@@ -45,14 +45,10 @@ const Contact = () => {
 
         if (!isFormValid()) { return }
 
+        console.log('process.env.REACT_APP_TO_SERVICE_ID: ', process.env.REACT_APP_TO_SERVICE_ID, 'process.env.REACT_APP_TO_TEMPLATE_ID: ', process.env.REACT_APP_TO_TEMPLATE_ID, 'e.target: ', e.target, ' process.env.REACT_APP_TO_USER_ID: ', process.env.REACT_APP_TO_USER_ID)
+
         emailjs.sendForm(process.env.REACT_APP_TO_SERVICE_ID, process.env.REACT_APP_TO_TEMPLATE_ID, e.target, process.env.REACT_APP_TO_USER_ID)
             .then(() => {
-                // turn off spinner
-                // setIsSpinnerShow(false)
-                // TODO SPINNER
-
-                // TODO ANIMATION
-
                 setSentMessage(true)
 
                 setTimeout(() => {
@@ -99,7 +95,9 @@ const Contact = () => {
                                 {DICT[lang].contactFormTitle}
                             </h1>
                             <form className='contact__form_el_cntr'
-                                onSubmit={sendBtnClicked}>
+                                onSubmit={sendBtnClicked}
+                                noValidate
+                            >
 
                                 <input className={(isUserNameValid) ? 'contact__form_el' : 'contact__form_el_error'}
                                     type="text"
