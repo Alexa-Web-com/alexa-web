@@ -24,12 +24,11 @@ const Projects = () => {
         },
         {
             pict: KetoZochaScreenshot,
-            // TODO - poprawne zdjęcie o wyjsciowej szerokosci 1396px
             title: DICT[lang].projectsProjectTitleKetoZocha,
             desc: DICT[lang].projectsProjectDescKetoZocha,
             technologies: ["VS Code", "HTML", "CSS", "JavaScript", "React", "GitHub",],
             gitHubIconLink: null,
-            directLink: 'https://www.ketozocha.pl/',
+            directLink: 'https://ketozocha.site/home',
         },
         {
             pict: StarWarsFansScreenshot,
@@ -52,7 +51,7 @@ const Projects = () => {
             title: DICT[lang].projectsProjectTitleStudioWWW,
             desc: DICT[lang].projectsProjectDescStudioWWW,
             technologies: ["VS Code", "HTML", "CSS", "JavaScript", "React", "GitHub",],
-            gitHubIconLink: 'https://github.com/Alexa-Web-com/studio-www',
+            gitHubIconLink: null,
             directLink: 'https://studio-www.com/home',
         },
         {

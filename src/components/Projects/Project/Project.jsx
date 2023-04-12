@@ -19,7 +19,11 @@ const Project = (props) => {
             <div className={props.isPictOnLeft ? 'project__cntr_odd' : 'project__cntr_even'}>
                 <div className='project__featured_project'>{DICT[lang].projectsFeaturedProject}</div>
                 <div className='project__title'>
-                    <a href={props.project.directLink} className='project__title_link'>{props.project.title}</a></div>
+                    <a href={props.project.directLink}
+                        className='project__title_link'
+                        target='_blank'
+                        rel='noreferrer'
+                    >{props.project.title}</a></div>
 
                 <div className='project__background_mobile'>
                     <figure className='project__background_mobile_figure'>
@@ -42,7 +46,10 @@ const Project = (props) => {
                                 </a>}
                         </li>
                         <li className='projects__icon_wrapper'>
-                            <a href={props.project.directLink}>
+                            <a href={props.project.directLink}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
                                 <div className='project__icon project__icon_external_link'></div>
                             </a>
                         </li>
