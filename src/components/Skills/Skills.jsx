@@ -6,8 +6,8 @@ import html from '../../assets/skills/html.png'
 import css from '../../assets/skills/css.png'
 import js from '../../assets/skills/js.png'
 import reactImg from '../../assets/skills/react.png'
-import vsc from '../../assets/skills/vsc.png'
 import ts from '../../assets/skills/ts.png'
+import git from '../../assets/skills/git.jpg'
 
 const Skills = () => {
     const [lang,] = useContext(ContextLanguage)
@@ -50,7 +50,7 @@ const Skills = () => {
                         </div>
                         <div className='skills__tool_cntr'>
                             <figure data-aos="zoom-in" className='skills__tools__figure'>
-                                <img className='skills__img' src={vsc} alt='visual studio code' />
+                                <img className='skills__img' src={git} alt='git' />
                             </figure>
                             <p className='skills__tool_desc'>{DICT[lang].skillsVSC}</p>
                         </div>
