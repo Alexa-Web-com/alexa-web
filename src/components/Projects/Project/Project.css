@@ -32,7 +32,6 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    /* max-width: 350px; */
     width: 100%;
 }
 
@@ -119,7 +118,6 @@
     width: 25px;
     height: 25px;
     background-size: cover;
-    margin-top: 0.1rem;
 }
 
 .project__icon_github {
@@ -210,6 +208,7 @@
     .projects__linkIcons_even {
         align-self: flex-end;
     }
+
 }
 
 @media screen and (max-width: 550px) {

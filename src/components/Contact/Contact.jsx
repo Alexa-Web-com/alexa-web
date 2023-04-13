@@ -91,7 +91,7 @@ const Contact = () => {
                 <div className='contact__cntr'>
 
                     <div className='contact__wrapper'>
-                        <h1 className='contact__form_title'>{DICT[lang].contactSentMessageFromPage}</h1>
+                        <h1 data-aos="fade-right" className='contact__form_title'>{DICT[lang].contactSentMessageFromPage}</h1>
 
                     </div>
                 </div>
@@ -105,7 +105,7 @@ const Contact = () => {
 
                         <div className='contact__wrapper'>
                             <div className='contact_form_cntr'>
-                                <h1 className='contact__form_title'>
+                                <h1 data-aos="zoom-in-down" data-aos-duration="1000" className='contact__form_title'>
                                     {DICT[lang].contactFormTitle}
                                 </h1>
                                 <form className='contact__form_el_cntr'

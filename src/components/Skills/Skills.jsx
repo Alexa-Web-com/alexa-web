@@ -25,37 +25,37 @@ const Skills = () => {
 
                     <div className='skills__tools__cntr'>
                         <div className='skills__tool_cntr'>
-                            <figure data-aos="zoom-in" className='skills__tools__figure'>
+                            <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
                                 <img className='skills__img' src={html} alt='html5' />
                             </figure>
                             <p className='skills__tool_desc'>{DICT[lang].skillsHTML}</p>
                         </div>
                         <div className='skills__tool_cntr'>
-                            <figure data-aos="zoom-in" className='skills__tools__figure'>
+                            <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
                                 <img className='skills__img' src={css} alt='css3' />
                             </figure>
                             <p className='skills__tool_desc'>{DICT[lang].skillsCSS}</p>
                         </div>
                         <div className='skills__tool_cntr'>
-                            <figure data-aos="zoom-in" className='skills__tools__figure'>
+                            <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
                                 <img className='skills__img' src={js} alt='java script' />
                             </figure>
                             <p className='skills__tool_desc'>{DICT[lang].skillsJS}</p>
                         </div>
                         <div className='skills__tool_cntr'>
-                            <figure data-aos="zoom-in" className='skills__tools__figure'>
+                            <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
                                 <img className='skills__img' src={reactImg} alt='react' />
                             </figure>
                             <p className='skills__tool_desc'>{DICT[lang].skillsReact}</p>
                         </div>
                         <div className='skills__tool_cntr'>
-                            <figure data-aos="zoom-in" className='skills__tools__figure'>
+                            <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
                                 <img className='skills__img' src={git} alt='git' />
                             </figure>
                             <p className='skills__tool_desc'>{DICT[lang].skillsVSC}</p>
                         </div>
                         <div className='skills__tool_cntr'>
-                            <figure data-aos="zoom-in" className='skills__tools__figure'>
+                            <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
                                 <img className='skills__img' src={ts} alt='type script' />
                             </figure>
                             <p className='skills__tool_desc'>{DICT[lang].skillsTS}</p>

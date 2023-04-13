@@ -39,7 +39,9 @@ const About = () => {
                 </div>
                 <div className='about__img_wrapper'>
                     <figure className='about__img_cntr'>
-                        <div data-aos="fade-up-left" data-aos-duration="1000">
+                        <div
+                            data-aos="fade-up-left" data-aos-duration="1000"
+                        >
                             <img src={alexa_pict} alt='headshot' className='about__img' />
                             <div className='about__img_background'></div>
                         </div>

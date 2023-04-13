@@ -1,5 +1,6 @@
 .about {
     padding-left: 8rem;
+    overflow: hidden;
 }
 
 .about__title_cntr {

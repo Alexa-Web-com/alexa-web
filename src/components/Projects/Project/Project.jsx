@@ -1,15 +1,39 @@
 import './Project.css'
 import { DICT } from '../../../utils/dict'
-import { useContext } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import { ContextLanguage } from '../../../context/ContextLanguage'
 
 const Project = (props) => {
     const [lang,] = useContext(ContextLanguage)
+    const [animationTypeLeft, setAnimationTypeLeft] = useState("");
+    const [animationTypeRight, setAnimationTypeRight] = useState("");
+
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth > 768) {
+                setAnimationTypeLeft("fade-right");
+                setAnimationTypeRight("fade-left")
+            } else {
+                setAnimationTypeLeft("fade-up");
+                setAnimationTypeRight("fade-up")
+            }
+        };
+
+        handleResize();
+
+        window.addEventListener("resize", handleResize);
+
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
 
     return (
         <div className='project'>
             {props.isPictOnLeft &&
-                <div data-aos="fade-right" data-aos-duration="1000" className='project__background'>
+                <div
+                    data-aos={animationTypeLeft} data-aos-duration="1000"
+                    className='project__background'>
                     <figure className='project__background_figure'>
                         <img src={props.project.pict} alt='app screencapture' className='project__background_img' />
                         <div className='project__img_background'></div>
@@ -60,7 +84,9 @@ const Project = (props) => {
                 </div>
             </div>
             {!props.isPictOnLeft &&
-                <div data-aos="fade-left" data-aos-duration="1000" className='project__background'>
+                <div
+                    data-aos={animationTypeRight} data-aos-duration="2000"
+                    className='project__background'>
                     <figure className='project__background_figure'>
                         <img src={props.project.pict} alt='app screencapture' className='project__background_img' />
                         <div className='project__img_background'></div>
