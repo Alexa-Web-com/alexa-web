@@ -9,7 +9,7 @@ const Project = (props) => {
     return (
         <div className='project'>
             {props.isPictOnLeft &&
-                <div className='project__background'>
+                <div data-aos="fade-right" data-aos-duration="1000" className='project__background'>
                     <figure className='project__background_figure'>
                         <img src={props.project.pict} alt='app screencapture' className='project__background_img' />
                         <div className='project__img_background'></div>
@@ -60,7 +60,7 @@ const Project = (props) => {
                 </div>
             </div>
             {!props.isPictOnLeft &&
-                <div className='project__background'>
+                <div data-aos="fade-left" data-aos-duration="1000" className='project__background'>
                     <figure className='project__background_figure'>
                         <img src={props.project.pict} alt='app screencapture' className='project__background_img' />
                         <div className='project__img_background'></div>

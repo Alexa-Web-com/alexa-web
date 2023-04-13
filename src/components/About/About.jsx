@@ -1,11 +1,16 @@
 import './About.css'
 import alexa_pict from '../../assets/pict/alexa.jpg'
 import { DICT } from '../../utils/dict'
-import { useContext } from 'react'
+import { useContext, useEffect } from 'react'
 import { ContextLanguage } from '../../context/ContextLanguage'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const About = () => {
     const [lang,] = useContext(ContextLanguage)
+    useEffect(() => {
+        AOS.init();
+    }, [])
 
     return (
         <div className='about component' id='about'>
@@ -34,8 +39,10 @@ const About = () => {
                 </div>
                 <div className='about__img_wrapper'>
                     <figure className='about__img_cntr'>
-                        <img src={alexa_pict} alt='headshot' className='about__img' />
-                        <div className='about__img_background'></div>
+                        <div data-aos="fade-up-left" data-aos-duration="1000">
+                            <img src={alexa_pict} alt='headshot' className='about__img' />
+                            <div className='about__img_background'></div>
+                        </div>
                         <div className='about__img_frame'></div>
                     </figure>
                 </div>
