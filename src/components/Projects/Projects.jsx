@@ -42,7 +42,7 @@ const Projects = () => {
             pict: BeautyStudioScreenshot,
             title: DICT[lang].projectsProjectTitleBeautyS,
             desc: DICT[lang].projectsProjectDescBeautyS,
-            technologies: ["VS Code", "HTML", "CSS",],
+            technologies: ["VS Code", "HTML", "CSS"],
             gitHubIconLink: null,
             directLink: 'https://www.beautystudio.com.pl/',
         },
