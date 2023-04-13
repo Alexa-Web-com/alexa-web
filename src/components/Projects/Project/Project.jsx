@@ -5,17 +5,17 @@ import { ContextLanguage } from '../../../context/ContextLanguage'
 
 const Project = (props) => {
     const [lang,] = useContext(ContextLanguage)
-    const [animationTypeLeft, setAnimationTypeLeft] = useState("");
-    const [animationTypeRight, setAnimationTypeRight] = useState("");
+    const [animationTypeLeft, setAnimationTypeOdd] = useState("");
+    const [animationTypeRight, setAnimationTypeEven] = useState("");
 
     useEffect(() => {
         const handleResize = () => {
             if (window.innerWidth > 768) {
-                setAnimationTypeLeft("fade-right");
-                setAnimationTypeRight("fade-left")
+                setAnimationTypeOdd("fade-right");
+                setAnimationTypeEven("fade-left")
             } else {
-                setAnimationTypeLeft("fade-up");
-                setAnimationTypeRight("fade-up")
+                setAnimationTypeOdd("fade-up");
+                setAnimationTypeEven("fade-up")
             }
         };
 
