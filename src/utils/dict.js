@@ -42,7 +42,7 @@ export const DICT = {
         projectsProjectTitleSW: "Star Wars Fans",
         projectsProjectDescSW: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
 
-        projectsProjectTitleMW: "My Wheather",
+        projectsProjectTitleMW: "My Weather",
         projectsProjectDescMW: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
 
         projectsProjectTitleStudioWWW: "Studio-www",
@@ -110,7 +110,7 @@ export const DICT = {
         projectsProjectTitleSW: "Star Wars Fans",
         projectsProjectDescSW: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
 
-        projectsProjectTitleMW: "My Wheather",
+        projectsProjectTitleMW: "My Weather",
         projectsProjectDescMW: "Praesentium laborum ipsa quod totam nulla doloribus soluta ad iure. Odio veniam odit deleniti labore rem veritatis reiciendis vel a doloremque voluptatem!",
 
         projectsProjectTitleStudioWWW: "Studio-www",

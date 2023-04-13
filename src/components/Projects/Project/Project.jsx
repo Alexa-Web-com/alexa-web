@@ -41,7 +41,10 @@ const Project = (props) => {
                     <ul className={props.isPictOnLeft ? 'projects__linkIcons projects__linkIcons_odd' : 'projects__linkIcons projects__linkIcons_even'}>
                         <li className='projects__icon_wrapper'>
                             {props.project.gitHubIconLink &&
-                                <a href={props.project.gitHubIconLink}>
+                                <a href={props.project.gitHubIconLink}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                >
                                     <div className='project__icon project__icon_github'></div>
                                 </a>}
                         </li>
