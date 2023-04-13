@@ -75,6 +75,9 @@ body {
   margin-top: 1.3rem;
 }
 
+a:visited {
+  color: white;
+}
 
 @media screen and (max-width: 1024px) {
   .content {
