@@ -85,7 +85,7 @@ const Project = (props) => {
             </div>
             {!props.isPictOnLeft &&
                 <div
-                    data-aos={animationTypeRight} data-aos-duration="2000"
+                    data-aos={animationTypeRight} data-aos-duration="1000"
                     className='project__background'>
                     <figure className='project__background_figure'>
                         <img src={props.project.pict} alt='app screencapture' className='project__background_img' />
