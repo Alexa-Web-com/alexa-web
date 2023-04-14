@@ -21,9 +21,9 @@ const About = () => {
             </div>
             <div className='about__content_cntr'>
                 <div className='about__desc content'>
-                    <p className='about__desc_el'>{DICT[lang].aboutDescElOne}</p>
-                    <p className='about__desc_el'>{DICT[lang].aboutDescElTwo}<span style={{ color: 'var(--blue)' }}>{DICT[lang].aboutDescElColorOne}</span>{DICT[lang].aboutDescElThree}</p>
-                    <p className='about__technologies_title'>{DICT[lang].aboutDescElFour}</p>
+                    <p className='about__desc_el'><span>{DICT[lang].aboutDescElOne}</span><span style={{ color: 'var(--blue)' }}>{DICT[lang].aboutDescElColorTwo}</span>
+                        <span>{DICT[lang].aboutDescElTree}</span><span style={{ color: 'var(--blue)' }}>{DICT[lang].aboutDescElColorFour}</span><span>{DICT[lang].aboutDescElFive}</span></p>
+                    <p className='about__technologies_title'>{DICT[lang].aboutDescElSix}</p>
                     <div className='about__technologies_cntr'>
                         <ul className='about__attribute_ul about__attribute_left_col'>
                             <li className='about__attribute_el_li'>{DICT[lang].aboutAttributeOne}</li>

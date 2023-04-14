@@ -150,7 +150,7 @@
     .project {
         flex-direction: column;
         align-items: center;
-        padding: 2rem 0 24rem 0;
+        padding: 2rem 0 32rem 0;
         position: relative;
     }
 
@@ -214,7 +214,7 @@
 
 @media screen and (max-width: 550px) {
     .project {
-        padding: 2rem 0 19rem 0;
+        padding: 2rem 0 30rem 0;
     }
 
     .project__details {
@@ -224,7 +224,7 @@
 
 @media screen and (max-width: 480px) {
     .project {
-        padding: 2rem 0 22rem 0;
+        padding: 2rem 0 34rem 0;
     }
 
     .project__details {
