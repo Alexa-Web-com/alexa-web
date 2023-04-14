@@ -16,19 +16,23 @@
 
 
 /*Moje */
-.skills__content_desc {
-    padding-bottom: 1rem;
-}
-
 .skills__tools__cntr {
     display: flex;
+    flex-direction: column;
     margin-top: 1rem;
+}
+
+.skills_tools_part {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
 }
 
 .skills__tool_cntr {
     display: flex;
     flex-direction: column;
     margin: 0 0.8rem;
+    flex: 1
 }
 
 .skills__tools__figure {
@@ -44,7 +48,7 @@
     font-size: var(--fontXS);
     font-weight: 300;
     text-align: center;
-
+    text-justify: inter-word;
 }
 
 
@@ -77,12 +81,14 @@
 
 @media screen and (max-width: 1024px) {
     .skills__tools__cntr {
-        flex-direction: column;
         margin: 0 2rem 0 0;
     }
 
+    .skills_tools_part {
+        flex-direction: column;
+    }
+
     .skills__tool_cntr {
-        flex-direction: row;
         margin: 0.5rem 0;
         align-items: center;
     }
