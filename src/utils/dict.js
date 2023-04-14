@@ -18,8 +18,8 @@ export const DICT = {
         introDescAdd: "I am an enthusiastic programmer who specializes in designing aesthetic and functional websites on a daily basis.",
         introBtn: "Check out my projects",
 
-        aboutDescElOne: "I enjoy developing my skills and learning about new technologies, ",
-        aboutDescElColorTwo: "and my inherent determination and meticulousness ",
+        aboutDescElOne: "I enjoy developing my skills and learning about new technologies, and my ",
+        aboutDescElColorTwo: "inherent determination and meticulousness ",
         aboutDescElTree: "allow me to achieve set goals. My ",
         aboutDescElColorFour: "commitment and positive attitude ",
         aboutDescElFive: "towards work make me not only a valuable employee, but also a good team player, ready to cooperate in order to achieve success.",
