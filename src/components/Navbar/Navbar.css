@@ -106,7 +106,6 @@
 
 @media screen and (max-width: 768px) {
     .navbar {
-        /* min-height: 6rem; */
         padding: 0;
     }
 

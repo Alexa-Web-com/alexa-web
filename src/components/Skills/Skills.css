@@ -14,8 +14,6 @@
     color: white;
 }
 
-
-/*Moje */
 .skills__tools__cntr {
     display: flex;
     flex-direction: column;
@@ -51,34 +49,6 @@
     text-justify: inter-word;
 }
 
-
-/*Damiana*/
-/* .skills__tools__container {
-    padding-top: 2rem;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    align-items: center;
-    justify-items: center;
-}
-
-.skills__tools__figure {
-    width: 100%;
-    height: 100%;
-} */
-
-/* .skills__tools { */
-/*full screen in mobile first section (cut browser search bar on mobile) + js code*/
-/* margin: 100vh auto 0 auto;
-    margin: calc(var(--vh, 1vh) * 100) auto 0 auto;
-
-    max-width: 1200px;
-    padding: 4rem 1rem;
-    display: flex;
-    flex-direction: column;
-} */
-
 @media screen and (max-width: 1024px) {
     .skills__tools__cntr {
         margin: 0 2rem 0 0;
@@ -98,7 +68,6 @@
         text-justify: inter-word;
     }
 }
-
 
 @media screen and (max-width: 768px) {
     .skills {

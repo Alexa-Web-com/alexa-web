@@ -54,7 +54,6 @@
     .sideBarRight {
         position: relative;
         left: 0;
-        /* bottom: 100vh; */
         bottom: 0;
         background-color: var(--navy);
     }

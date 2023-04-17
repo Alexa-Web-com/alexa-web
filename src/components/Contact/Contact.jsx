@@ -49,8 +49,6 @@ const Contact = () => {
 
         if (!isFormValid()) { return }
 
-        // console.log('process.env.REACT_APP_TO_SERVICE_ID: ', process.env.REACT_APP_TO_SERVICE_ID, 'process.env.REACT_APP_TO_TEMPLATE_ID: ', process.env.REACT_APP_TO_TEMPLATE_ID, 'e.target: ', e.target, ' process.env.REACT_APP_TO_USER_ID: ', process.env.REACT_APP_TO_USER_ID)
-
         console.log('e.target: ', e.target)
 
         setLoader(true)
@@ -72,7 +70,6 @@ const Contact = () => {
                 setIsUserNameValid(true)
                 setIsUserEmailValid(true)
                 setIsUserMessageValid(true)
-
             },
                 (error) => {
                     console.log(error.text)
@@ -103,7 +100,6 @@ const Contact = () => {
                             <Loader />
                         </div>
                         :
-
                         <div className='contact__wrapper'>
                             <div className='contact_form_cntr'>
                                 <h1 data-aos="zoom-in-down" data-aos-duration="1000" className='contact__form_title'>
@@ -113,7 +109,6 @@ const Contact = () => {
                                     onSubmit={sendBtnClicked}
                                     noValidate
                                 >
-
                                     <input className={(isUserNameValid) ? 'contact__form_el' : 'contact__form_el_error'}
                                         type="text"
                                         value={userName}

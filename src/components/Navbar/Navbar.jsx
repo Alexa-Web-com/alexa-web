@@ -1,14 +1,12 @@
 import './Navbar.css'
 import logo from '../../assets/logo.png'
-import { DICT, languages } from '../../utils/dict.js'
-import { useContext, useState, useEffect } from 'react'
-import { ContextLanguage } from '../../context/ContextLanguage'
+import { languages } from '../../utils/dict.js'
+import { useState, useEffect } from 'react'
 import Language from '../Language/Language'
 import { scroll } from '../../utils/scroll'
 import NavEl from './NavEl/NavEl'
 
 const Navbar = () => {
-    const [lang,] = useContext(ContextLanguage)
     const [isHamburgerActive, setIsHamburgerActive] = useState(false)
 
     useEffect(() => {

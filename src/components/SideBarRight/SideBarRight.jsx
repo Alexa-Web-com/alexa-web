@@ -2,12 +2,16 @@ import './SideBarRight.css'
 import { useEffect, useState } from 'react'
 const SideBarRight = () => {
     const [animation, setAnimation] = useState("");
+    const [duration, setDuration] = useState("")
 
     useEffect(() => {
         const handleResize = () => {
             if (window.innerWidth <= 480) {
-                setAnimation("zoom-in-up");
-
+                setAnimation("zoom-in-up")
+                setDuration("2200");
+            } else {
+                setAnimation("")
+                setDuration("");
             }
         };
 
@@ -23,7 +27,7 @@ const SideBarRight = () => {
 
     return (
         <div className='sideBarRight'>
-            <div data-aos={animation} data-aos-duration="2200" className='sideBarRight__email_wrapper'>
+            <div data-aos={animation} data-aos-duration={duration} className='sideBarRight__email_wrapper'>
                 <a href='mailto:info@alexa-web.com?subject=Customer Request'
                     className="sideBarRight__email"
                     target='_blank'

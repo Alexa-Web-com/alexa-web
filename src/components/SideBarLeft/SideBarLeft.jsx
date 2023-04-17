@@ -8,7 +8,6 @@ const SideBarLeft = () => {
         const handleResize = () => {
             if (window.innerWidth <= 480) {
                 setAnimation("zoom-in-up");
-
             }
         };
 
