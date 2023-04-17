@@ -1,0 +1,19 @@
+.greetings {
+    text-align: center;
+    padding: 3rem 0 0 0;
+    font-family: Mynerve;
+    font-size: 1.5rem;
+    color: var(--pink);
+}
+
+@media screen and (max-width: 480px) {
+
+    .greetings {
+        text-align: center;
+        padding: 0 0 0 0;
+        font-size: 1.3rem;
+        position: relative;
+        bottom: -8rem;
+        z-index: 90;
+    }
+}

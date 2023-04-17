@@ -59,7 +59,8 @@ const Project = (props) => {
                     <div className={props.isPictOnLeft ? 'project__desc project__desc_odd' : 'project__desc project__desc_even'}>{props.project.desc}</div>
                     <div className='project__technologies'>
                         {props.project.technologies.map((technology, index) =>
-                            <div key={index} className='project__technology'>{technology}</div>
+                            <div key={index} className={technology === 'empty' ? 'project__technology_empty' : 'project__technology'}>{
+                                technology}</div>
                         )}
                     </div>
                     <ul className={props.isPictOnLeft ? 'projects__linkIcons projects__linkIcons_odd' : 'projects__linkIcons projects__linkIcons_even'}>
