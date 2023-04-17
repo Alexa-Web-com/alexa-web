@@ -72,6 +72,10 @@ export const DICT = {
         contactEmailInvalid: "Email is invalid",
         contactMessageInvalid: "Your message must contain at least 5 characters",
 
+        greetingsStart: "Have a nice ",
+        greetingsDay: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        greetingsEnd: "!",
+
     },
 
     pl: {
@@ -125,7 +129,7 @@ export const DICT = {
         projectsProjectDescMW: "Aplikacja webowa pokazująca prognozę pogody przy wykorzystaniu technologii front-endowych. Dzięki użyciu API pogodowego, użytkownik może otrzymać bieżące dane na temat pogody w danym miejscu na świecie. Interaktywny i estetyczny interfejs pozwala na łatwe przeglądanie prognozy pogody na kilka dni do przodu, co czyni z aplikacji przydane i użyteczne narzędzie codziennego użytku.",
 
         projectsProjectTitleStudioWWW: "Studio-www",
-        projectsProjectDescStudioWWW: "Strona internetowa firmy tworzącej aplikacje webowe wyróżniająca się nowoczesnym i estetycznym designem, który zachęca do eksplorowania witryny. To doskonałe narzędzie do prezentacji umiejętności zespołu oraz portfolia projektów. Strona jest łatwa w nawigacji, responsywna oraz dostosowana do różnych urządzeń mobilnych, dzięki czemu użytkownicy mogą cieszyć się idealnym wrażeniem z przeglądania treści na dowolnym urządzeniu.",
+        projectsProjectDescStudioWWW: "Strona internetowa firmy tworzącej aplikacje webowe wyróżniająca się nowoczesnym i estetycznym designem, który zachęca do eksplorowania witryny. To doskonałe narzędzie do prezentacji umiejętności zespołu oraz portfolia projektów. Strona jest łatwa w nawigacji, responsywna oraz dostosowana do różnych urządzeń mobilnych, dzięki czemu użytkownicy mogą komfortowo przeglądać treści na dowolnym urządzeniu.",
 
         projectsProjectTitleBeautyS: "Beauty Studio",
         projectsProjectDescBeautyS: "Strona internetowa salonu kosmetycznego będąca wizytówka firmy, ale także ważnym narzędziem do pozyskiwania klientów. Jest przejrzysta, estetyczna i responsywna oraz prezentuje usługi salonu w sposób atrakcyjny i zachęcający potencjalnych klientów do skorzystania z usług.",
@@ -146,6 +150,10 @@ export const DICT = {
         contactNameInvalid: "Podaj prawidłowe dane",
         contactEmailInvalid: "Adres email jest nieprawidłowy",
         contactMessageInvalid: "Twoja wiadomość musi zawierać przynajmniej 5 znaków",
+
+        greetingsStart: "Miłe",
+        greetingsDay: ["j Niedzieli", "go Poniedziałku", "go Wtorku", "j Środy", "go Czwartku", "go Piatku", "j Soboty"],
+        greetingsEnd: "!",
 
     }
 }

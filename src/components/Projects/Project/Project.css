@@ -94,9 +94,13 @@
 }
 
 .project__technology {
-    padding: 2rem 0;
+    padding: 2rem 0.2rem;
     white-space: nowrap;
     font-size: var(--fontXS);
+}
+
+.project__technology_empty {
+    visibility: hidden
 }
 
 .projects__linkIcons {
@@ -143,6 +147,11 @@
 @media screen and (max-width: 1024px) {
     .project__background_img {
         opacity: 1;
+    }
+
+    .project__technology,
+    .project__technology_empty {
+        font-size: 0.9rem;
     }
 }
 
@@ -201,9 +210,10 @@
         padding: 1rem 0;
     }
 
-    .project__technology {
-        padding: 0;
-        font-size: 0.8rem;
+    .project__technology,
+    .project__technology_empty {
+        padding: 0 0.2rem;
+        /* font-size: 0.8rem; */
     }
 
     .projects__linkIcons_even {
@@ -214,11 +224,16 @@
 
 @media screen and (max-width: 550px) {
     .project {
-        padding: 2rem 0 30rem 0;
+        padding: 2rem 0 31rem 0;
     }
 
     .project__details {
         top: 11rem;
+    }
+
+    .project__technology,
+    .project__technology_empty {
+        font-size: 0.8rem;
     }
 }
 

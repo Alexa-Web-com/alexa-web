@@ -5,6 +5,7 @@ import { ContextLanguage } from '../../context/ContextLanguage'
 import { isValidEmail } from '../../utils/isValidEmail'
 import emailjs from 'emailjs-com';
 import Loader from '../Loader/Loader'
+import Greetings from '../Greetings/Greetings'
 
 
 const Contact = () => {
@@ -149,12 +150,12 @@ const Contact = () => {
                                         {DICT[lang].contactFormSendBtn}
                                     </button>
                                 </form>
+                                <Greetings />
                             </div>
                         </div>
                     }
                 </div>
             }
-
         </div>
     )
 }
