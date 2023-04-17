@@ -115,7 +115,7 @@
 
     .sideBarLeft__icons_cntr {
         position: relative;
-        bottom: 8rem;
+        bottom: 6rem;
         flex-direction: row;
         justify-content: space-around;
     }
