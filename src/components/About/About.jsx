@@ -21,8 +21,17 @@ const About = () => {
             </div>
             <div className='about__content_cntr'>
                 <div className='about__desc content'>
-                    <p className='about__desc_el'><span>{DICT[lang].aboutDescElOne}</span><span style={{ color: 'var(--blue)' }}>{DICT[lang].aboutDescElColorTwo}</span>
-                        <span>{DICT[lang].aboutDescElTree}</span><span style={{ color: 'var(--blue)' }}>{DICT[lang].aboutDescElColorFour}</span><span>{DICT[lang].aboutDescElFive}</span></p>
+                    <p className='about__desc_el'>
+                        <span>{DICT[lang].aboutDescElOne}</span>
+                        <span style={{ color: 'var(--blue)' }}>{DICT[lang].aboutDescElColorTwo}</span>
+                        <span>{DICT[lang].aboutDescElTree}</span>
+                        <span style={{ color: 'var(--blue)' }}>{DICT[lang].aboutDescElColorFour}</span>
+                        <span>{DICT[lang].aboutDescElFive}</span>
+                        <span style={{ color: 'var(--blue)' }}>{DICT[lang].aboutDescElColorSix}</span>
+                        <span>{DICT[lang].aboutDescElSeven}</span>
+                        <span style={{ color: 'var(--blue)' }}>{DICT[lang].aboutDescElColorEight}</span>
+                        <span>{DICT[lang].aboutDescElNine}</span>
+                    </p>
                     <p className='about__technologies_title'>{DICT[lang].aboutDescElSix}</p>
                     <div className='about__technologies_cntr'>
                         <ul className='about__attribute_ul about__attribute_left_col'>
