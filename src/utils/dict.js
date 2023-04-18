@@ -90,7 +90,7 @@ export const DICT = {
         introFirstName: "Aleksandra ",
         introSurName: "Wilczyńska",
         introDescTopOne: "Jestem ",
-        introDescTopTwo: "Front-end Developererem ",
+        introDescTopTwo: "Front-end Developerem ",
         introDescTopTree: "z Gdyni.",
 
         introDescAdd: "Jako programistka na co dzień zajmuję się projektowaniem estetycznych i funkcjonalnych stron internetowych. Jestem pełna zapału i czerpię satysfakcę z nowych wyzwań.",
