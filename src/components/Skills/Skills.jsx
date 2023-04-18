@@ -5,12 +5,28 @@ import { ContextLanguage } from '../../context/ContextLanguage'
 import html from '../../assets/skills/html.png'
 import css from '../../assets/skills/css.png'
 import js from '../../assets/skills/js.png'
-import reactImg from '../../assets/skills/react.png'
+import react_ from '../../assets/skills/react.png'
 import ts from '../../assets/skills/ts.png'
 import git from '../../assets/skills/git.jpg'
+import star from '../../assets/stars/star.svg'
+import star_full from '../../assets/stars/star-full.svg'
 
 const Skills = () => {
     const [lang,] = useContext(ContextLanguage)
+
+    const skillStars = {
+        html: 4,
+        css: 4,
+        js: 3,
+        react: 3,
+        git: 2,
+        ts: 1,
+    }
+
+    const getStars = (starsQuantity) => {
+        return new Array(5).fill("").map((x, index) =>
+            <img src={index + 1 > starsQuantity ? star : star_full} alt='star' />)
+    }
 
     return (
         <div className='skills component' id='skills'>
@@ -26,39 +42,57 @@ const Skills = () => {
                             <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
                                 <img className='skills__img' src={html} alt='html5' />
                             </figure>
-                            <p className='skills__tool_desc'>{DICT[lang].skillsHTML}</p>
+                            <p className='skills__tool_desc'>{DICT[lang].skills_html}</p>
+                            <div>
+                                {getStars(skillStars.html)}
+                            </div>
                         </div>
                         <div className='skills__tool_cntr'>
                             <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
                                 <img className='skills__img' src={css} alt='css3' />
                             </figure>
-                            <p className='skills__tool_desc'>{DICT[lang].skillsCSS}</p>
+                            <p className='skills__tool_desc'>{DICT[lang].skills_css}</p>
+                            <div>
+                                {getStars(skillStars.css)}
+                            </div>
                         </div>
                         <div className='skills__tool_cntr'>
                             <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
                                 <img className='skills__img' src={js} alt='java script' />
                             </figure>
-                            <p className='skills__tool_desc'>{DICT[lang].skillsJS}</p>
+                            <p className='skills__tool_desc'>{DICT[lang].skills_js}</p>
+                            <div>
+                                {getStars(skillStars.js)}
+                            </div>
                         </div>
                     </div>
                     <div className='skills_tools_part'>
                         <div className='skills__tool_cntr'>
                             <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
-                                <img className='skills__img' src={reactImg} alt='react' />
+                                <img className='skills__img' src={react_} alt='react_' />
                             </figure>
-                            <p className='skills__tool_desc'>{DICT[lang].skillsReact}</p>
+                            <p className='skills__tool_desc'>{DICT[lang].skills_react}</p>
+                            <div>
+                                {getStars(skillStars.react)}
+                            </div>
                         </div>
                         <div className='skills__tool_cntr'>
                             <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
                                 <img className='skills__img' src={git} alt='git' />
                             </figure>
-                            <p className='skills__tool_desc'>{DICT[lang].skillsGIT}</p>
+                            <p className='skills__tool_desc'>{DICT[lang].skills_git}</p>
+                            <div>
+                                {getStars(skillStars.git)}
+                            </div>
                         </div>
                         <div className='skills__tool_cntr'>
                             <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
                                 <img className='skills__img' src={ts} alt='type script' />
                             </figure>
-                            <p className='skills__tool_desc'>{DICT[lang].skillsTS}</p>
+                            <p className='skills__tool_desc'>{DICT[lang].skills_ts}</p>
+                            <div>
+                                {getStars(skillStars.ts)}
+                            </div>
                         </div>
                     </div>
                 </div>

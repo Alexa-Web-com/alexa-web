@@ -38,10 +38,16 @@
 .about__attribute_ul {
     width: 100%;
     list-style-image: url('../../assets/list_markers/check-circled-outline.svg');
+    text-align: left;
+    text-justify: auto;
 }
 
 .about__attribute_left_col {
     padding-left: 2rem;
+}
+
+.about__attribute_right_col {
+    padding-left: 0.5rem;
 }
 
 .about__attribute_el_li {
@@ -100,11 +106,7 @@
     z-index: 2;
 }
 
-@media screen and (max-width: 1080px) {
-    .about__desc_el {
-        padding-bottom: 0;
-    }
-
+@media screen and (max-width: 1200px) {
     .about__technologies_cntr {
         margin-bottom: 2rem;
         flex-direction: column;
@@ -112,6 +114,16 @@
 
     .about__attribute_right_col {
         padding-left: 2rem;
+    }
+
+    .about__attribute_el_li {
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .about__desc_el {
+        padding-bottom: 0;
     }
 
     .about__attribute_el_li:hover {
@@ -168,6 +180,10 @@
     .about__img_background {
         width: 300px;
         height: 300px;
+    }
+
+    .about__attribute_el_li {
+        white-space: normal;
     }
 }
 
