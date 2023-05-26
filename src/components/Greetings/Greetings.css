@@ -1,68 +1,73 @@
 .greetings {
     text-align: center;
-    padding: 3rem 0 0 0;
+    padding: 3rem 0 2rem 0;
     font-family: Mynerve;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--pink);
     display: flex;
+    flex-direction: column;
+    align-self: center;
 }
 
 .greetings_text {
     padding-top: 0.3rem;
+    padding-bottom: 1rem;
 }
 
 .greetings__hand {
     margin-left: 1rem;
-    animation: shake 2s infinite;
+    animation: wave_hand 2s infinite;
     transform: rotate(0, 0, 0);
     backface-visibility: hidden;
     perspective: 100px;
 
 }
 
-@keyframes shake {
+@keyframes wave_hand {
 
     0% {
-        transform: rotate(30deg);
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(14deg);
     }
 
     20% {
-        transform: rotate(30deg);
+        transform: rotate(-8deg);
     }
 
     30% {
-        transform: rotate(50deg);
+        transform: rotate(14deg);
     }
 
     40% {
-        transform: rotate(30deg);
+        transform: rotate(-4.0deg);
     }
 
     50% {
-        transform: rotate(50deg);
+        transform: rotate(10deg);
     }
 
     60% {
-        transform: rotate(20deg);
-    }
-
-    70% {
-        transform: rotate(40deg);
-    }
-
-    80% {
-        transform: rotate(30deg);
+        transform: rotate(0deg);
     }
 
     100% {
-        transform: rotate(30deg);
+        transform: rotate(0deg);
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .greetings {
+        align-self: center;
+        flex-direction: row;
     }
 }
 
 @media screen and (max-width: 480px) {
 
     .greetings {
-        text-align: center;
         padding: 0 0 0 0;
         font-size: 1.3rem;
         position: relative;
