@@ -39,7 +39,9 @@ export const DICT = {
         skills_css: "CSS3",
         skills_js: "JavaScript",
         skills_react: "React",
+        skills_redux: "Redux",
         skills_git: "GIT Version Control",
+        skills_cypress: "Cypress",
         skills_ts: "TypeScript",
 
         projectsFeaturedProject: "FEATURED PROJECT",
@@ -117,7 +119,9 @@ export const DICT = {
         skills_css: "CSS3",
         skills_js: "JavaScript",
         skills_react: "React",
+        skills_redux: "Redux",
         skills_git: "GIT Version Control",
+        skills_cypress: "Cypress",
         skills_ts: "TypeScript",
 
         projectsFeaturedProject: "WYKONANY PROJEKT",

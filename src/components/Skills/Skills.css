@@ -16,7 +16,7 @@
 
 .skills__tools__cntr {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 1rem;
 }
 
@@ -53,9 +53,9 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .skills__tools__cntr {
+    /* .skills__tools__cntr {
         flex-direction: column;
-    }
+    } */
 
     .skills__tool_desc {
         height: 2rem;
@@ -66,11 +66,14 @@
 @media screen and (max-width: 1024px) {
     .skills__tools__cntr {
         margin: 0 2rem 0 0;
+        flex-direction: row;
+        justify-content: space-around;
     }
 
-    /* .skills_tools_part {
+    .skills_tools_part {
         flex-direction: column;
-    } */
+    }
+
 
     .skills__tool_cntr {
         margin: 0.5rem 0;
@@ -89,8 +92,8 @@
     }
 
     .skills__tools__cntr {
-        flex-direction: row;
-        justify-content: space-around;
+        /* flex-direction: row;
+        justify-content: space-around; */
         margin: auto;
     }
 
