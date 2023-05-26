@@ -53,10 +53,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-    /* .skills__tools__cntr {
-        flex-direction: column;
-    } */
-
     .skills__tool_desc {
         height: 2rem;
     }
@@ -79,11 +75,6 @@
         margin: 0.5rem 0;
         align-items: center;
     }
-
-    /* .skills__tool_desc {
-        text-align: justify;
-        text-justify: inter-word;
-    } */
 }
 
 @media screen and (max-width: 768px) {
@@ -92,8 +83,6 @@
     }
 
     .skills__tools__cntr {
-        /* flex-direction: row;
-        justify-content: space-around; */
         margin: auto;
     }
 

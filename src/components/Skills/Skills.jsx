@@ -19,11 +19,11 @@ const Skills = () => {
     const skillStars = {
         html: 4,
         css: 4,
-        js: 3,
-        react: 3,
-        redux: 2,
+        js: 4,
+        react: 4,
+        redux: 3,
         git: 2,
-        cypress: 1,
+        cypress: 2,
         ts: 1,
     }
 

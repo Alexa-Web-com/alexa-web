@@ -145,8 +145,8 @@ const Contact = () => {
                                         {DICT[lang].contactFormSendBtn}
                                     </button>
                                 </form>
-                                <Greetings />
                             </div>
+                            <Greetings />
                         </div>
                     }
                 </div>

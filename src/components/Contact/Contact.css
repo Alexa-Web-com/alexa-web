@@ -21,8 +21,9 @@
 .contact__wrapper {
     padding-top: 6rem;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: flex-start; */
     width: 100%;
 }
 
@@ -166,10 +167,21 @@ textarea::placeholder {
     }
 }
 
+@media screen and (max-width: 1025px) {
+    .contact__cntr {
+        padding-bottom: 3rem;
+    }
+
+    .contact__wrapper {
+        flex-direction: column;
+
+    }
+}
 
 
 @media screen and (max-width: 480px) {
     .contact__cntr {
         padding-bottom: 3rem;
     }
+
 }
