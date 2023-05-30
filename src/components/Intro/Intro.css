@@ -98,7 +98,7 @@
         white-space: nowrap;
         margin: auto 0;
         animation:
-            typing 4s linear;
+            typing 2s linear;
     }
 
     .intro__desc_top {
