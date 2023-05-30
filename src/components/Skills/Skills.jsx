@@ -29,7 +29,7 @@ const Skills = () => {
 
     const getStars = (starsQuantity) => {
         return new Array(5).fill("").map((x, index) =>
-            <img src={index + 1 > starsQuantity ? star : star_full} alt='star' />)
+            <img src={index + 1 > starsQuantity ? star : star_full} alt='star' key={index} />)
     }
 
     return (

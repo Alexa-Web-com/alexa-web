@@ -10,7 +10,7 @@ const Greetings = () => {
 
     return (
         <div className='greetings'>
-            <div div className='greetings_text'>{DICT[lang].greetingsStart}{DICT[lang].greetingsDay[getWeekDay()]}{DICT[lang].greetingsEnd}</div>
+            <div className='greetings_text'>{DICT[lang].greetingsStart}{DICT[lang].greetingsDay[getWeekDay()]}{DICT[lang].greetingsEnd}</div>
             <div className='greetings__hand'><Hand /></div>
         </div>
     )
