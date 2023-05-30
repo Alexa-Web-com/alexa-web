@@ -6,6 +6,7 @@ import Language from '../Language/Language'
 import { scroll } from '../../utils/scroll'
 import NavEl from './NavEl/NavEl'
 
+
 const Navbar = () => {
     const [isHamburgerActive, setIsHamburgerActive] = useState(false)
 
@@ -17,6 +18,16 @@ const Navbar = () => {
         return () => window.removeEventListener('resize', (e) => {
             e.target.innerWidth > 1024 && setIsHamburgerActive(false)
         })
+    }, [])
+
+
+
+    useEffect(() => {
+        console.log(window.location.hash)
+        setTimeout(() => {
+            scroll(`${window.location.hash.slice(1)}`)
+        }, 300)
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     return (

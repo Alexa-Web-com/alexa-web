@@ -100,7 +100,7 @@ const Contact = () => {
                             <Loader />
                         </div>
                         :
-                        <div className='contact__wrapper'>
+                        <div className='contact__wrapper' >
                             <div className='contact_form_cntr'>
                                 <h1 data-aos="zoom-in-down" data-aos-duration="1000" className='contact__form_title'>
                                     {DICT[lang].contactFormTitle}
