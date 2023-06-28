@@ -23,10 +23,12 @@ const Navbar = () => {
 
 
     useEffect(() => {
-        console.log(window.location.hash)
-        setTimeout(() => {
-            scroll(`${window.location.hash.slice(1)}`)
-        }, 300)
+        const hashSection = window.location.hash.slice(1)
+        if (hashSection) {
+            setTimeout(() => {
+                scroll(hashSection)
+            }, 300)
+        }
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 

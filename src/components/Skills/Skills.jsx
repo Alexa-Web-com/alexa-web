@@ -42,18 +42,6 @@ const Skills = () => {
             <div className='skills__content_cntr content'>
                 <div className='skills__tools__cntr'>
                     <div className='skills_tools_part'>
-
-
-
-                        <div className='skills__tool_cntr'>
-                            <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
-                                <img className='skills__img' src={js} alt='java script' />
-                            </figure>
-                            <p className='skills__tool_desc'>{DICT[lang].skills_js}</p>
-                            <div>
-                                {getStars(skillStars.js)}
-                            </div>
-                        </div>
                         <div className='skills__tool_cntr'>
                             <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
                                 <img className='skills__img' src={react_} alt='react_' />
@@ -61,6 +49,15 @@ const Skills = () => {
                             <p className='skills__tool_desc'>{DICT[lang].skills_react}</p>
                             <div>
                                 {getStars(skillStars.react)}
+                            </div>
+                        </div>
+                        <div className='skills__tool_cntr'>
+                            <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
+                                <img className='skills__img' src={js} alt='java script' />
+                            </figure>
+                            <p className='skills__tool_desc'>{DICT[lang].skills_js}</p>
+                            <div>
+                                {getStars(skillStars.js)}
                             </div>
                         </div>
                         <div className='skills__tool_cntr'>
