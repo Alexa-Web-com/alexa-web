@@ -24,7 +24,7 @@ const Skills = () => {
         redux: 3,
         git: 2,
         cypress: 2,
-        ts: 1,
+        ts: 3,
     }
 
     const getStars = (starsQuantity) => {
@@ -41,6 +41,47 @@ const Skills = () => {
             </div>
             <div className='skills__content_cntr content'>
                 <div className='skills__tools__cntr'>
+                    <div className='skills_tools_part'>
+
+
+
+                        <div className='skills__tool_cntr'>
+                            <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
+                                <img className='skills__img' src={js} alt='java script' />
+                            </figure>
+                            <p className='skills__tool_desc'>{DICT[lang].skills_js}</p>
+                            <div>
+                                {getStars(skillStars.js)}
+                            </div>
+                        </div>
+                        <div className='skills__tool_cntr'>
+                            <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
+                                <img className='skills__img' src={react_} alt='react_' />
+                            </figure>
+                            <p className='skills__tool_desc'>{DICT[lang].skills_react}</p>
+                            <div>
+                                {getStars(skillStars.react)}
+                            </div>
+                        </div>
+                        <div className='skills__tool_cntr'>
+                            <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
+                                <img className='skills__img' src={ts} alt='type script' />
+                            </figure>
+                            <p className='skills__tool_desc'>{DICT[lang].skills_ts}</p>
+                            <div>
+                                {getStars(skillStars.ts)}
+                            </div>
+                        </div>
+                        <div className='skills__tool_cntr'>
+                            <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
+                                <img className='skills__img' src={redux} alt='redux' />
+                            </figure>
+                            <p className='skills__tool_desc'>{DICT[lang].skills_redux}</p>
+                            <div>
+                                {getStars(skillStars.redux)}
+                            </div>
+                        </div>
+                    </div>
                     <div className='skills_tools_part'>
                         <div className='skills__tool_cntr'>
                             <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
@@ -62,35 +103,6 @@ const Skills = () => {
                         </div>
                         <div className='skills__tool_cntr'>
                             <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
-                                <img className='skills__img' src={js} alt='java script' />
-                            </figure>
-                            <p className='skills__tool_desc'>{DICT[lang].skills_js}</p>
-                            <div>
-                                {getStars(skillStars.js)}
-                            </div>
-                        </div>
-                        <div className='skills__tool_cntr'>
-                            <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
-                                <img className='skills__img' src={react_} alt='react_' />
-                            </figure>
-                            <p className='skills__tool_desc'>{DICT[lang].skills_react}</p>
-                            <div>
-                                {getStars(skillStars.react)}
-                            </div>
-                        </div>
-                    </div>
-                    <div className='skills_tools_part'>
-                        <div className='skills__tool_cntr'>
-                            <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
-                                <img className='skills__img' src={redux} alt='redux' />
-                            </figure>
-                            <p className='skills__tool_desc'>{DICT[lang].skills_redux}</p>
-                            <div>
-                                {getStars(skillStars.redux)}
-                            </div>
-                        </div>
-                        <div className='skills__tool_cntr'>
-                            <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
                                 <img className='skills__img' src={git} alt='git' />
                             </figure>
                             <p className='skills__tool_desc'>{DICT[lang].skills_git}</p>
@@ -105,15 +117,6 @@ const Skills = () => {
                             <p className='skills__tool_desc'>{DICT[lang].skills_cypress}</p>
                             <div>
                                 {getStars(skillStars.cypress)}
-                            </div>
-                        </div>
-                        <div className='skills__tool_cntr'>
-                            <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
-                                <img className='skills__img' src={ts} alt='type script' />
-                            </figure>
-                            <p className='skills__tool_desc'>{DICT[lang].skills_ts}</p>
-                            <div>
-                                {getStars(skillStars.ts)}
                             </div>
                         </div>
                     </div>
