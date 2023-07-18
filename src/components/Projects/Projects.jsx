@@ -9,6 +9,7 @@ import StudioWWWScreenshot from '../../assets/my_app_screenshots/StudioWWW.jpg'
 import BeautyStudioScreenshot from '../../assets/my_app_screenshots/BeautyStudio.jpg'
 import TatarczukScreenshot from '../../assets/my_app_screenshots/Tatarczuk.jpg'
 import KetoZochaScreenshot from '../../assets/my_app_screenshots/KetoZocha.jpg'
+import GoPlacesScreenshot from '../../assets/my_app_screenshots/GoPlaces.jpg'
 
 const Projects = () => {
     const [lang,] = useContext(ContextLanguage)
@@ -61,6 +62,14 @@ const Projects = () => {
             technologies: ["HTML", "CSS", "JavaScript", "React", "GitHub", "Cypress", "Redux"],
             gitHubIconLink: 'https://github.com/Alexa-Web-com/weather-forecast',
             directLink: 'https://alexa-web-com.github.io/weather-forecast/',
+        },
+        {
+            pict: GoPlacesScreenshot,
+            title: DICT[lang].projectsProjectTitleGoPlaces,
+            desc: DICT[lang].projectsProjectDescGoPlaces,
+            technologies: ["HTML", "CSS", "JavaScript", "React", "TypeScript", "GitHub", "Redux"],
+            gitHubIconLink: 'https://github.com/Alexa-Web-com/go-places',
+            directLink: 'https://goplaces.ovh',
         },
     ]
 
