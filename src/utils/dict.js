@@ -64,6 +64,9 @@ export const DICT = {
         projectsProjectTitleKetoZocha: "KetoZocha Blog",
         projectsProjectDescKetoZocha: "A blog featuring ketogenic diet recipes that serves as a valuable source of information for people interested in this type of diet. The website not only contains delicious and diverse recipes but also information about the ketogenic diet and its health benefits, as well as articles with tips. As a result, readers have access to valuable information that can help them maintain their health and fitness.",
 
+        projectsProjectTitleGoPlaces: "Go Places",
+        projectsProjectDescKetPlaces: "The web application's goal is to facilitate planning and comparing prices in different places around the world. With its intuitive interface and additional tools, it enables quick analysis and comparison of living costs during travels.",
+
         contactFormTitle: "Write to me!",
         contactFormUserNameInputPlaceholder: "Your Name",
         contactFormUserEmailInputPlaceholder: "Your email address",
@@ -143,6 +146,9 @@ export const DICT = {
 
         projectsProjectTitleKetoZocha: "KetoZocha Blog",
         projectsProjectDescKetoZocha: "Blog z przepisami w żywieniu ketogenicznym będący cennym źródłem informacji dla osób zainteresowanych takim stylem odżywiania. Strona zawiera nie tylko smaczne i zróżnicowane przepisy, ale również informacje o diecie ketogenicznej i jej korzyściach zdrowotnych oraz artykuły z poradami. Dzięki temu czytelnicy mają dostęp do wartościowych informacji, które pomogą im utrzymać zdrowie i formę.",
+
+        projectsProjectTitleGoPlaces: "Go Places",
+        projectsProjectDescGoPlaces: "Aplikacja webowa, której celem jest ułatwienie planowania i porównywania cen w różnych miejscach na świecie. Dzięki intuicyjnemu interfejsowi oraz dodatkowym narzędziom umożliwia szybką analizę oraz porównanie kosztów życia podczas podróży.",
 
 
         contactFormTitle: "Napisz do mnie!",
