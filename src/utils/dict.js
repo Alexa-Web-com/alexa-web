@@ -65,7 +65,7 @@ export const DICT = {
         projectsProjectDescKetoZocha: "A blog featuring ketogenic diet recipes that serves as a valuable source of information for people interested in this type of diet. The website not only contains delicious and diverse recipes but also information about the ketogenic diet and its health benefits, as well as articles with tips. As a result, readers have access to valuable information that can help them maintain their health and fitness.",
 
         projectsProjectTitleGoPlaces: "Go Places",
-        projectsProjectDescKetPlaces: "The web application's goal is to facilitate planning and comparing prices in different places around the world. With its intuitive interface and additional tools, it enables quick analysis and comparison of living costs during travels.",
+        projectsProjectDescGoPlaces: "The web application's goal is to facilitate planning and comparing prices in different places around the world. With its intuitive interface and additional tools, it enables quick analysis and comparison of living costs during travels.",
 
         contactFormTitle: "Write to me!",
         contactFormUserNameInputPlaceholder: "Your Name",
