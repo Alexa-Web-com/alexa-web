@@ -59,7 +59,7 @@ const Projects = () => {
             pict: YourWeatherScreenshot,
             title: DICT[lang].projectsProjectTitleMW,
             desc: DICT[lang].projectsProjectDescMW,
-            technologies: ["HTML", "CSS", "JavaScript", "React", "GitHub", "Cypress", "Redux"],
+            technologies: ["HTML", "CSS", "JavaScript", "React", "TypeScript", "GitHub", "Cypress", "Redux"],
             gitHubIconLink: 'https://github.com/Alexa-Web-com/weather-forecast',
             directLink: 'https://alexa-web-com.github.io/weather-forecast/',
         },
