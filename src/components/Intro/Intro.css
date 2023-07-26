@@ -71,7 +71,8 @@
     background-color: var(--aqua-transparent);
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 846px) {
     .intro__hello {
         display: none;
     }

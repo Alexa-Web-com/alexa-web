@@ -48,16 +48,9 @@ const Project = (props) => {
                         target='_blank'
                         rel='noreferrer'
                     >{props.project.title}</a></div>
-
-                <div className='project__background_mobile'>
-                    <figure className='project__background_mobile_figure'>
-                        <img src={props.project.pict} alt='app screencapture' className='project__background_mobile_img' />
-                    </figure>
-                </div>
-
                 <div className='project__details'>
                     <div className={props.isPictOnLeft ? 'project__desc project__desc_odd' : 'project__desc project__desc_even'}>{props.project.desc}</div>
-                    <div className='project__technologies'>
+                    <div className={props.isPictOnLeft ? 'project__technologies project__technologies_odd' : 'project__technologies project__technologies_even'}>
                         {props.project.technologies.map((technology, index) =>
                             <div key={index} className={technology === 'empty' ? 'project__technology_empty' : 'project__technology'}>{
                                 technology}</div>
