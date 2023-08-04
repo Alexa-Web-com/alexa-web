@@ -38,16 +38,13 @@
 
     .sideBarRight__email_wrapper {
         right: 1.3rem;
+        bottom: 3rem;
     }
 
     .sideBarRight__line {
         right: 2rem;
     }
 
-
-    .sideBarRight__email_wrapper {
-        bottom: 3rem;
-    }
 }
 
 @media screen and (max-width: 480px) {
@@ -73,5 +70,17 @@
         right: 0;
         text-align: center;
         bottom: 8rem;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .sideBarRight__line {
+        display: none;
+    }
+
+    .sideBarRight__email_wrapper {
+        position: fixed;
+        right: 1.3rem;
+        bottom: 0;
     }
 }
