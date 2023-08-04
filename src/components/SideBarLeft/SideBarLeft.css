@@ -14,13 +14,16 @@
     flex-direction: column;
 }
 
+.sideBarLeft__icons_cntr_vertical {
+    display: none;
+}
+
 .sideBarLeft__line {
     margin-left: 0.8rem;
 }
 
 .sideBarLeft__icon_wrapper {
     margin-top: 0.6rem;
-    transition: all 0.1s ease-in-out;
 }
 
 .sideBarLeft__icon_wrapper:hover,
@@ -136,12 +139,23 @@
 }
 
 @media screen and (max-height: 450px) {
+
+    .sideBarLeft__icons_cntr {
+        display: none;
+    }
+
+    .sideBarLeft__icons_cntr_vertical {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        position: fixed;
+        bottom: 1rem;
+    }
+
     .sideBarLeft__line {
         display: none
     }
 
-    .sideBarLeft__icons_cntr {
-        position: fixed;
-        bottom: 1rem;
-    }
+
+
 }
