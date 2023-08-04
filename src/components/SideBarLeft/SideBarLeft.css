@@ -134,3 +134,14 @@
         margin-top: 0;
     }
 }
+
+@media screen and (max-height: 450px) {
+    .sideBarLeft__line {
+        display: none
+    }
+
+    .sideBarLeft__icons_cntr {
+        position: fixed;
+        bottom: 1rem;
+    }
+}
