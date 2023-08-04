@@ -67,7 +67,7 @@ const Projects = () => {
             pict: GoPlacesScreenshot,
             title: DICT[lang].projectsProjectTitleGoPlaces,
             desc: DICT[lang].projectsProjectDescGoPlaces,
-            technologies: ["HTML", "CSS", "JavaScript", "React", "TypeScript", "GitHub", "Redux"],
+            technologies: ["HTML", "CSS", "JavaScript", "React", "TypeScript", "GitHub", "Cypress", "Redux"],
             gitHubIconLink: 'https://github.com/Alexa-Web-com/go-places',
             directLink: 'https://goplaces.ovh',
         },
