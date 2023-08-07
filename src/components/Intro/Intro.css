@@ -124,3 +124,9 @@
         font-size: var(--fontM);
     }
 }
+
+@media screen and (max-height: 450px) {
+    .intro {
+        padding: 7rem 6rem 10rem 6rem;
+    }
+}
