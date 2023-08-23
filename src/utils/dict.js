@@ -50,7 +50,7 @@ export const DICT = {
         projectsProjectDescSW: "A website about the Star Wars universe that is a collection of information about characters, planets, and films, which will satisfy the appetite of every fan of the saga. This site is the perfect place for anyone who loves this iconic film series and wants to delve deeper into its world.",
 
         projectsProjectTitleMW: "My Weather",
-        projectsProjectDescMW: "A web application that shows the weather forecast using front-end technologies. By using a weather API, the user can receive current data about the weather in a specific location around the world. The interactive and tasteful interface allows for easy browsing of the weather forecast for several days in advance, making the application a useful and practical tool for everyday use.",
+        projectsProjectDescMW: "A web application that shows the weather forecast using front-end technologies. By using a weather API, the user can receive current data about the weather in a specific location around the world. The interactive, visually appealing and intuitive interface allows for easy browsing of the weather forecast even for several days in advance, making the application a useful and practical tool for everyday use.",
 
         projectsProjectTitleStudioWWW: "Studio-www",
         projectsProjectDescStudioWWW: "A website of a company that creates web applications distinguished by its modern and aesthetic design, which encourages users to explore the site. It is an excellent tool for presenting the team's skills and portfolio of projects. The website is easy to navigate, responsive, and adapted to various mobile devices, allowing users to enjoy a seamless browsing experience on any device.",
@@ -62,10 +62,10 @@ export const DICT = {
         projectsProjectDescTatarczuk: "A website of a company that provides hydraulic services and service of heating boilers. It presents the company's offer in a transparent and harmonious way. It reflects professionalism and commitment to the services provided, which can increase the trust of potential customers in the company.",
 
         projectsProjectTitleKetoZocha: "KetoZocha Blog",
-        projectsProjectDescKetoZocha: "A blog featuring ketogenic diet recipes that serves as a valuable source of information for people interested in this type of diet. The website not only contains delicious and diverse recipes but also information about the ketogenic diet and its health benefits, as well as articles with tips. As a result, readers have access to valuable information that can help them maintain their health and fitness.",
+        projectsProjectDescKetoZocha: "A blog featuring ketogenic diet recipes that serves as a valuable source of information for people interested in this type of diet. The website not only contains delicious and diverse recipes but also information about the ketogenic diet and its health benefits, as well as articles with tips. As a result, readers have access to valuable information that can help them maintain their health and physical condition.",
 
         projectsProjectTitleGoPlaces: "Go Places",
-        projectsProjectDescGoPlaces: "The web application's goal is to facilitate planning and comparing prices in different places around the world. With its intuitive interface and additional tools, it enables quick analysis and comparison of living costs during travels.",
+        projectsProjectDescGoPlaces: "A web application aimed at facilitating the planning and comparison of prices in various locations around the world. Thanks to its intuitive interface and additional tools, it enables a quick analysis and comparison of the cost of living during travels, even in the most distant destinations. Useful for every enthusiast of exploring new places, getting to know different cultures, and discovering the world!",
 
         contactFormTitle: "Write to me!",
         contactFormUserNameInputPlaceholder: "Your Name",
@@ -148,7 +148,7 @@ export const DICT = {
         projectsProjectDescKetoZocha: "Blog z przepisami w żywieniu ketogenicznym będący cennym źródłem informacji dla osób zainteresowanych takim stylem odżywiania. Strona zawiera nie tylko smaczne i zróżnicowane przepisy, ale również informacje o diecie ketogenicznej i jej korzyściach zdrowotnych oraz artykuły z poradami. Dzięki temu czytelnicy mają dostęp do wartościowych informacji, które pomogą im utrzymać zdrowie i formę.",
 
         projectsProjectTitleGoPlaces: "Go Places",
-        projectsProjectDescGoPlaces: "Aplikacja webowa, której celem jest ułatwienie planowania i porównywania cen w różnych miejscach na świecie. Dzięki intuicyjnemu interfejsowi oraz dodatkowym narzędziom umożliwia szybką analizę oraz porównanie kosztów życia podczas podróży.",
+        projectsProjectDescGoPlaces: "Aplikacja webowa, której celem jest ułatwienie planowania i porównywania cen w różnych miejscach na świecie. Dzięki intuicyjnemu interfejsowi oraz dodatkowym narzędziom umożliwia szybką analizę oraz porównanie kosztów życia podczas podróży, nawet w najodleglejszych destynacjach. Przydatna każdemu miłośnikowi zwiedzania nowych miejsc, poznawania innych kultur i odkrywania świata!",
 
 
         contactFormTitle: "Napisz do mnie!",
