@@ -34,12 +34,17 @@ const Project = (props) => {
                 <div
                     data-aos={animationTypeLeft} data-aos-duration="1000"
                     className='project__background'>
-                    <figure className='project__background_figure'>
-                        <img src={props.project.pict} alt='app screencapture' className='project__background_img' />
-                        <div className='project__img_background'></div>
-                    </figure>
+                    <a href={props.project.directLink}
+                        className='project__title_link'
+                        target='_blank'
+                        rel='noreferrer'
+                    >
+                        <figure className='project__background_figure'>
+                            <img src={props.project.pict} alt='app screencapture' className='project__background_img' />
+                            <div className='project__img_background'></div>
+                        </figure>
+                    </a>
                 </div>}
-
             <div className={props.isPictOnLeft ? 'project__cntr_odd' : 'project__cntr_even'}>
                 <div className='project__featured_project'>{DICT[lang].projectsFeaturedProject}</div>
                 <div className='project__title'>
@@ -81,10 +86,16 @@ const Project = (props) => {
                 <div
                     data-aos={animationTypeRight} data-aos-duration="1000"
                     className='project__background'>
-                    <figure className='project__background_figure'>
-                        <img src={props.project.pict} alt='app screencapture' className='project__background_img' />
-                        <div className='project__img_background'></div>
-                    </figure>
+                    <a href={props.project.directLink}
+                        className='project__title_link'
+                        target='_blank'
+                        rel='noreferrer'
+                    >
+                        <figure className='project__background_figure'>
+                            <img src={props.project.pict} alt='app screencapture' className='project__background_img' />
+                            <div className='project__img_background'></div>
+                        </figure>
+                    </a>
                 </div>}
         </div >
     )
