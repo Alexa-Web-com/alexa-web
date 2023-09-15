@@ -10,6 +10,8 @@
     left: 0;
     z-index: 50;
     transition: all 1s ease-out;
+    border: solid white;
+    border-width: 0 0 1px 0;
 }
 
 .navbar__left {
