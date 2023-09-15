@@ -23,7 +23,8 @@
         position: fixed;
         right: 0;
         left: 0;
-        top: 6rem;
+        top: 0;
+        padding-top: 3.4rem;
         text-align: center;
         transition: 0.3s;
         flex-direction: column;
@@ -47,11 +48,13 @@
     .navbar__el_ham_active:hover {
         font-weight: bold;
     }
-}
 
+    .navbar__el_ham_active:first-child {
+        padding-top: 1rem;
+    }
 
-@media screen and (max-width: 768px) {
-    .navbar__nav_elements_cntr_ham_active {
-        top: 4.5rem;
+    .navbar__el_ham_active:nth-child(4) {
+        border: solid white;
+        border-width: 0 0 1px 0;
     }
 }
