@@ -40,9 +40,7 @@ const Navbar = () => {
                     setIsHamburgerActive(false)
                 }
                 }>
-                <figure>
-                    <img src={logo} alt='logo' width='25rem' className='navbar__logo' />
-                </figure>
+                <img src={logo} alt='logo' width='25rem' className='navbar__logo' />
                 <h1 className='navbar__title'>Alexa-Web</h1>
             </div>
 
