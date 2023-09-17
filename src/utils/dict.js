@@ -98,7 +98,7 @@ export const DICT = {
         introDescTopTwo: "Front-end Developerem ",
         introDescTopTree: "z Gdyni.",
 
-        introDescAdd: "Jako programistka na co dzień zajmuję się projektowaniem estetycznych i funkcjonalnych stron internetowych. Jestem pełna zapału i czerpię satysfakcę z nowych wyzwań.",
+        introDescAdd: "Jako programistka na co dzień zajmuję się projektowaniem estetycznych i funkcjonalnych stron internetowych. Jestem pełna zapału i czerpię satysfakcję z nowych wyzwań.",
         introBtn: "Sprawdź moje projekty",
 
         aboutDescElOne: "Lubię rozwijać swoje umiejętności i poznawać nowe technologie, a ",
