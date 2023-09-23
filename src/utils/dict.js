@@ -15,7 +15,7 @@ export const DICT = {
         introDescTopOne: "I'm a ",
         introDescTopTwo: "Front-end Developer ",
         introDescTopTree: "based in Gdynia, Poland.",
-        introDescAdd: "As a programmer, I design appealing and functional websites. I am passionate about website design and enjoy taking on new challenges.",
+        introDescAdd: "As a programmer, I design appealing and functional web applications. I am passionate about website design and enjoy taking on new challenges.",
         introBtn: "Check out my projects",
 
         aboutDescElOne: "I enjoy learning new technologies and skills, and approach challenges with ",
@@ -98,7 +98,7 @@ export const DICT = {
         introDescTopTwo: "Front-end Developerem ",
         introDescTopTree: "z Gdyni.",
 
-        introDescAdd: "Jako programistka na co dzień zajmuję się projektowaniem estetycznych i funkcjonalnych stron internetowych. Jestem pełna zapału i czerpię satysfakcję z nowych wyzwań.",
+        introDescAdd: "Jako programistka na co dzień zajmuję się projektowaniem estetycznych i funkcjonalnych aplikacji webowych. Jestem pełna zapału i czerpię satysfakcję z nowych wyzwań.",
         introBtn: "Sprawdź moje projekty",
 
         aboutDescElOne: "Lubię rozwijać swoje umiejętności i poznawać nowe technologie, a ",
