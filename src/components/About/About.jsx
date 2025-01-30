@@ -1,7 +1,7 @@
 import './About.css'
 import alexa_pict from '../../assets/pict/alexa.jpg'
 import { DICT } from '../../utils/dict'
-import { useContext, useEffect } from 'react'
+import { useContext } from 'react'
 import { ContextLanguage } from '../../context/ContextLanguage'
 
 const About = () => {

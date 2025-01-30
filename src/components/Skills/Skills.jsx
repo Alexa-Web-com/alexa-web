@@ -8,8 +8,9 @@ import js from '../../assets/skills/js.png'
 import react_ from '../../assets/skills/react.png'
 import ts from '../../assets/skills/ts.png'
 import git from '../../assets/skills/git.jpg'
-import cypress from '../../assets/skills/cypress.png'
+// import cypress from '../../assets/skills/cypress.png'
 import redux from '../../assets/skills/redux.png'
+import astro from '../../assets/skills/astro.png'
 import star from '../../assets/stars/star.svg'
 import star_full from '../../assets/stars/star-full.svg'
 
@@ -17,14 +18,14 @@ const Skills = () => {
     const [lang,] = useContext(ContextLanguage)
 
     const skillStars = {
+        react: 4,
+        js: 4,
+        ts: 4,
+        redux: 3,
+        git: 4,
+        astro: 3,
         html: 4,
         css: 4,
-        js: 4,
-        react: 4,
-        redux: 3,
-        git: 2,
-        cypress: 2,
-        ts: 3,
     }
 
     const getStars = (starsQuantity) => {
@@ -82,6 +83,24 @@ const Skills = () => {
                     <div className='skills_tools_part'>
                         <div className='skills__tool_cntr'>
                             <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
+                                <img className='skills__img' src={git} alt='git' />
+                            </figure>
+                            <p className='skills__tool_desc'>{DICT[lang].skills_git}</p>
+                            <div>
+                                {getStars(skillStars.git)}
+                            </div>
+                        </div>
+                        <div className='skills__tool_cntr'>
+                            <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
+                                <img className='skills__img' src={astro} alt='astro' />
+                            </figure>
+                            <p className='skills__tool_desc'>{DICT[lang].skills_astro}</p>
+                            <div>
+                                {getStars(skillStars.astro)}
+                            </div>
+                        </div>
+                        <div className='skills__tool_cntr'>
+                            <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
                                 <img className='skills__img' src={html} alt='html5' />
                             </figure>
                             <p className='skills__tool_desc'>{DICT[lang].skills_html}</p>
@@ -96,24 +115,6 @@ const Skills = () => {
                             <p className='skills__tool_desc'>{DICT[lang].skills_css}</p>
                             <div>
                                 {getStars(skillStars.css)}
-                            </div>
-                        </div>
-                        <div className='skills__tool_cntr'>
-                            <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
-                                <img className='skills__img' src={git} alt='git' />
-                            </figure>
-                            <p className='skills__tool_desc'>{DICT[lang].skills_git}</p>
-                            <div>
-                                {getStars(skillStars.git)}
-                            </div>
-                        </div>
-                        <div className='skills__tool_cntr'>
-                            <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
-                                <img className='skills__img' src={cypress} alt='cypress' />
-                            </figure>
-                            <p className='skills__tool_desc'>{DICT[lang].skills_cypress}</p>
-                            <div>
-                                {getStars(skillStars.cypress)}
                             </div>
                         </div>
                     </div>

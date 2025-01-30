@@ -15,7 +15,8 @@ export const DICT = {
         introDescTopOne: "I'm a ",
         introDescTopTwo: "Front-end Developer ",
         introDescTopTree: "based in Gdynia, Poland.",
-        introDescAdd: "As a programmer, I design appealing and functional web applications. I am passionate about website design and enjoy taking on new challenges.",
+        // introDescAdd: "As a programmer, I design appealing and functional web applications. I am passionate about website design and enjoy taking on new challenges.",
+        introDescAdd: "As a programmer driven by curiosity and a desire to create useful things, I enjoy growing and designing applications that make people's lives easier. I am full of enthusiasm and I derive satisfaction from new challenges.",
         introBtn: "Check out my projects",
 
         aboutDescElOne: "I enjoy learning new technologies and skills, and approach challenges with ",
@@ -29,10 +30,10 @@ export const DICT = {
         aboutDescElNine: "make me valuable employee as well as a great team player ready to work in a tandem with others.",
         aboutDescElSix: "My strong points are:",
         aboutAttributeOne: "Professionalism",
-        aboutAttributeTwo: "Higher education",
-        aboutAttributeThree: "18 years of work in an international team",
-        aboutAttributeFour: "Good work organization",
-        aboutAttributeFive: "Commitment and creativity",
+        aboutAttributeTwo: "Good work organization",
+        aboutAttributeThree: "20 years of work in an international team",
+        aboutAttributeFour: "Commitment and creativity",
+        aboutAttributeFive: "Higher education",
         aboutAttributeSix: "Experience in communicating in English",
 
         skills_html: "HTML5",
@@ -41,7 +42,7 @@ export const DICT = {
         skills_react: "React",
         skills_redux: "Redux",
         skills_git: "GIT Version Control",
-        skills_cypress: "Cypress",
+        skills_astro: "Astro",
         skills_ts: "TypeScript",
 
         projectsFeaturedProject: "FEATURED PROJECT",
@@ -98,7 +99,8 @@ export const DICT = {
         introDescTopTwo: "Front-end Developerem ",
         introDescTopTree: "z Gdyni.",
 
-        introDescAdd: "Jako programistka na co dzień zajmuję się projektowaniem estetycznych i funkcjonalnych aplikacji webowych. Jestem pełna zapału i czerpię satysfakcję z nowych wyzwań.",
+        // introDescAdd: "Jako programistka na co dzień zajmuję się projektowaniem estetycznych i funkcjonalnych aplikacji webowych. Jestem pełna zapału i czerpię satysfakcję z nowych wyzwań.",
+        introDescAdd: "Jako programistka, którą napędza ciekawość i chęć tworzenia rzeczy użytecznych, lubię się rozwijać i projektować aplikacje, które ułatwiają ludziom życie. Jestem pełna zapału i czerpię satysfakcję z nowych wyzwań.",
         introBtn: "Sprawdź moje projekty",
 
         aboutDescElOne: "Lubię rozwijać swoje umiejętności i poznawać nowe technologie, a ",
@@ -112,10 +114,10 @@ export const DICT = {
         aboutDescElNine: "sprawiają, że jestem nie tylko wartościowym pracownikiem, ale także dobrym działaczem zespołowym, gotowym do współpracy w celu osiągnięcia sukcesu.",
         aboutDescElSix: "Moje mocne strony to: ",
         aboutAttributeOne: "Profesjonalizm",
-        aboutAttributeTwo: "Wyższe wykształcenie",
-        aboutAttributeThree: "18 lat pracy w międzynarodowym zespole",
-        aboutAttributeFour: "Dobra organizacja pracy",
-        aboutAttributeFive: "Zaangażowanie i kreatywność",
+        aboutAttributeTwo: "Dobra organizacja pracy",
+        aboutAttributeThree: "20 lat pracy w międzynarodowym zespole",
+        aboutAttributeFour: "Zaangażowanie i kreatywność",
+        aboutAttributeFive: "Wyższe wykształcenie",
         aboutAttributeSix: "Doświadczenie w komunikacji w języku angielskim",
 
         skills_html: "HTML5",
@@ -124,7 +126,7 @@ export const DICT = {
         skills_react: "React",
         skills_redux: "Redux",
         skills_git: "GIT Version Control",
-        skills_cypress: "Cypress",
+        skills_astro: "Astro",
         skills_ts: "TypeScript",
 
         projectsFeaturedProject: "WYKONANY PROJEKT",

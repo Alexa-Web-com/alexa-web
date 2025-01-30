@@ -85,7 +85,7 @@
 
 .project__technologies {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     width: 120%;
     flex-wrap: wrap;
     padding: 2rem 0 0 0;

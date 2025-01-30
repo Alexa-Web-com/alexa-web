@@ -8,8 +8,8 @@ import YourWeatherScreenshot from '../../assets/my_app_screenshots/YourWeather.j
 import StudioWWWScreenshot from '../../assets/my_app_screenshots/StudioWWW.jpg'
 import BeautyStudioScreenshot from '../../assets/my_app_screenshots/BeautyStudio.jpg'
 import TatarczukScreenshot from '../../assets/my_app_screenshots/Tatarczuk.jpg'
-import KetoZochaScreenshot from '../../assets/my_app_screenshots/KetoZocha.jpg'
-import GoPlacesScreenshot from '../../assets/my_app_screenshots/GoPlaces.jpg'
+// import KetoZochaScreenshot from '../../assets/my_app_screenshots/KetoZocha.jpg'
+// import GoPlacesScreenshot from '../../assets/my_app_screenshots/GoPlaces.jpg'
 
 const Projects = () => {
     const [lang,] = useContext(ContextLanguage)
@@ -24,12 +24,12 @@ const Projects = () => {
             directLink: 'https://www.tatarczuk.com.pl/',
         },
         {
-            pict: KetoZochaScreenshot,
-            title: DICT[lang].projectsProjectTitleKetoZocha,
-            desc: DICT[lang].projectsProjectDescKetoZocha,
+            pict: StudioWWWScreenshot,
+            title: DICT[lang].projectsProjectTitleStudioWWW,
+            desc: DICT[lang].projectsProjectDescStudioWWW,
             technologies: ["HTML", "CSS", "JavaScript", "React", "GitHub",],
             gitHubIconLink: null,
-            directLink: 'https://ketozocha.site/home',
+            directLink: 'https://studio-www.com/home',
         },
         {
             pict: StarWarsFansScreenshot,
@@ -48,14 +48,6 @@ const Projects = () => {
             directLink: 'https://www.beautystudio.com.pl/',
         },
         {
-            pict: StudioWWWScreenshot,
-            title: DICT[lang].projectsProjectTitleStudioWWW,
-            desc: DICT[lang].projectsProjectDescStudioWWW,
-            technologies: ["HTML", "CSS", "JavaScript", "React", "GitHub",],
-            gitHubIconLink: null,
-            directLink: 'https://studio-www.com/home',
-        },
-        {
             pict: YourWeatherScreenshot,
             title: DICT[lang].projectsProjectTitleMW,
             desc: DICT[lang].projectsProjectDescMW,
@@ -63,14 +55,22 @@ const Projects = () => {
             gitHubIconLink: 'https://github.com/Alexa-Web-com/weather-forecast',
             directLink: 'https://alexa-web-com.github.io/weather-forecast/',
         },
-        {
-            pict: GoPlacesScreenshot,
-            title: DICT[lang].projectsProjectTitleGoPlaces,
-            desc: DICT[lang].projectsProjectDescGoPlaces,
-            technologies: ["HTML", "CSS", "JavaScript", "React", "TypeScript", "GitHub", "Cypress", "Redux"],
-            gitHubIconLink: 'https://github.com/Alexa-Web-com/go-places',
-            directLink: 'https://goplaces.ovh',
-        },
+        //         {
+        //     pict: KetoZochaScreenshot,
+        //     title: DICT[lang].projectsProjectTitleKetoZocha,
+        //     desc: DICT[lang].projectsProjectDescKetoZocha,
+        //     technologies: ["HTML", "CSS", "JavaScript", "React", "GitHub",],
+        //     gitHubIconLink: null,
+        //     directLink: 'https://ketozocha.site/home',
+        // },
+        // {
+        //     pict: GoPlacesScreenshot,
+        //     title: DICT[lang].projectsProjectTitleGoPlaces,
+        //     desc: DICT[lang].projectsProjectDescGoPlaces,
+        //     technologies: ["HTML", "CSS", "JavaScript", "React", "TypeScript", "GitHub", "Cypress", "Redux"],
+        //     gitHubIconLink: 'https://github.com/Alexa-Web-com/go-places',
+        //     directLink: 'https://goplaces.ovh',
+        // },
     ]
 
     return (
