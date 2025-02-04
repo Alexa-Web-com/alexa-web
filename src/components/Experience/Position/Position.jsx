@@ -17,9 +17,9 @@ const Position = ({ position }) => {
                 </div>
             </div>
             <div className="position__tasks">
-                <ul className='position__desc'>{position.desc.map(task =>
-                    <li>{task}</li>)}</ul>
-                <div className="position__techonologies">{position.technologies.map(technology => <p className="position__techonology">
+                <ul className='position__desc'>{position.desc.map((task, index) =>
+                    <li key={index}>{task}</li>)}</ul>
+                <div className="position__techonologies">{position.technologies.map((technology, index) => <p className="position__techonology" key={index}>
                     {technology}
                 </p>)}</div>
             </div>

@@ -62,11 +62,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .navbar__title {
-        /* font-size: 2.6rem;
-        padding-top: 0.4rem; */
-    }
-
     .hamburger_cntr {
         display: block;
         display: flex;

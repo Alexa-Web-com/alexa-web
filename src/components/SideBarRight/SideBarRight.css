@@ -55,10 +55,6 @@
         background-color: var(--navy);
     }
 
-    .sideBarRight__email_wrapper {
-        right: 0;
-    }
-
     .sideBarRight__line {
         display: none;
     }
@@ -71,9 +67,14 @@
         text-align: center;
         bottom: 8rem;
     }
+
+    .sideBarRight__email {
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 650px) {
     .sideBarRight__line {
         display: none;
     }
@@ -82,5 +83,12 @@
         position: fixed;
         right: 1.3rem;
         bottom: 0;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    .sideBarRight__email_wrapper {
+        display: none;
+
     }
 }
