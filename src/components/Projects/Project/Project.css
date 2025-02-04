@@ -134,7 +134,7 @@
 
 .project__icon_github:hover,
 .project__icon_github:focus {
-    background-image: url(../../../assets/app_logo/github-colored-aqua.svg);
+    background-image: url(../../../assets/app_logo/github-colored.svg);
 }
 
 .project__icon_external_link {
@@ -143,7 +143,7 @@
 
 .project__icon_external_link:hover,
 .project__icon_external_link:focus {
-    background-image: url(../../../assets/app_logo/external-link-colored-aqua.svg);
+    background-image: url(../../../assets/app_logo/external-link-colored.svg);
 }
 
 

@@ -1,0 +1,11 @@
+.experience__title_cntr {
+    display: flex;
+}
+
+.experience__line {
+    background-color: var(--blue);
+}
+
+.experience__title {
+    color: var(--blue);
+}

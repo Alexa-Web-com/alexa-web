@@ -7,11 +7,11 @@
 }
 
 .skills__line {
-    background-color: white;
+    background-color: var(--blue);
 }
 
 .skills__title {
-    color: white;
+    color: var(--blue);
 }
 
 .skills__tools__cntr {

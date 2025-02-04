@@ -5,17 +5,19 @@
 }
 
 .navbar__el {
+    display: flex;
     font-size: 1.5rem;
     padding: 0 1rem;
+    color: var(--blue);
     text-decoration: none;
     cursor: pointer;
     white-space: nowrap;
-    min-width: 5.5em;
-    text-align: right;
+    /* min-width: 5.5em; */
+    text-align: center;
 }
 
 .navbar__el:hover {
-    font-weight: bold;
+    color: white;
 }
 
 @media screen and (max-width: 1024px) {
@@ -53,7 +55,7 @@
         padding-top: 1rem;
     }
 
-    .navbar__el_ham_active:nth-child(4) {
+    .navbar__el_ham_active:nth-child(5) {
         border: solid white;
         border-width: 0 0 1px 0;
     }

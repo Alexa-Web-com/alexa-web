@@ -24,7 +24,7 @@
 
 .sideBarRight__email:hover,
 .sideBarRight__email:focus {
-    color: var(--pink);
+    color: var(--aqua);
     font-weight: 600;
 }
 

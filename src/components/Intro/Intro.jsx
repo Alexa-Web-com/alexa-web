@@ -19,7 +19,7 @@ const Intro = () => {
                     {DICT[lang].introFirstName}
                 </p>
             </div>
-            <p className='intro__desc_top'>{DICT[lang].introDescTopOne} <span style={{ color: 'var(--pink)' }}>{DICT[lang].introDescTopTwo}</span>{DICT[lang].aboutDescTopTree}</p>
+            <p className='intro__desc_top'>{DICT[lang].introDescTopOne} <span style={{ color: 'var(--aqua)' }}>{DICT[lang].introDescTopTwo}</span>{DICT[lang].aboutDescTopTree}</p>
             <p className='intro__desc_add content'>{DICT[lang].introDescAdd}</p>
             <button className='intro__btn'
                 onClick={() => scroll('projects')}>{DICT[lang].introBtn}</button>

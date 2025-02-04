@@ -45,7 +45,9 @@
 .navbar__languages {
     display: flex;
     flex-direction: column;
-    padding-top: 0.5rem;
+    justify-content: center;
+
+    /* padding-top: 0.5rem; */
 }
 
 .hamburger_cntr {
@@ -53,10 +55,16 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 1540px) {
+    .navbar__title {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .navbar__title {
-        font-size: 2.6rem;
-        padding-top: 0.4rem;
+        /* font-size: 2.6rem;
+        padding-top: 0.4rem; */
     }
 
     .hamburger_cntr {
@@ -119,7 +127,7 @@
 
     .navbar__logo {
         width: 3rem;
-        margin-left: 0;
+        /* margin-left: 0; */
     }
 
     .navbar__title {
@@ -134,7 +142,7 @@
     .navbar__languages {
         display: flex;
         flex-direction: column;
-        padding-top: 0.75rem;
+        /* padding-top: 0.75rem; */
     }
 
 

@@ -3,9 +3,9 @@
 }
 
 .projects__line {
-    background-color: var(--aqua);
+    background-color: var(--blue);
 }
 
 .projects__title {
-    color: var(--aqua);
+    color: var(--blue);
 }

@@ -7,11 +7,11 @@
 }
 
 .contact__line {
-    background-color: var(--pink);
+    background-color: var(--blue);
 }
 
 .contact__title {
-    color: var(--pink);
+    color: var(--blue);
 }
 
 .contact__cntr {
@@ -63,7 +63,7 @@
 }
 
 .contact__form_el_errMessage {
-    color: var(--pink);
+    color: var(--blue);
     font-size: var(--fontS);
     height: 1.2rem;
     margin-bottom: 0.3rem;
@@ -103,7 +103,7 @@ textarea::placeholder {
     margin-top: 1rem;
     font-size: var(--fontS);
     color: white;
-    background-color: var(--pink);
+    background-color: var(--blue);
     border-radius: var(--border-radius);
 }
 

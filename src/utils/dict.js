@@ -4,8 +4,10 @@ export const DICT = {
     en: {
         navbarAbout: "About",
         navbarSkills: "Skills",
+        navbarExperience: "Experience",
         navbarProjects: "Projects",
         navbarContact: "Contact",
+        navbarFullName: "Alexandra Wilczynska",
 
         introHello: "Hello, my name is",
         introHelloMobile: "Hello, my name is",
@@ -40,10 +42,23 @@ export const DICT = {
         skills_css: "CSS3",
         skills_js: "JavaScript",
         skills_react: "React",
-        skills_redux: "Redux",
+        skills_redux: "Redux Toolkit",
         skills_git: "GIT Version Control",
         skills_astro: "Astro",
         skills_ts: "TypeScript",
+
+        experiencePositionPublicis: "FRONT-END DEVELOPER",
+        experienceDutiesPublicis: ["development of web applications for a renowned client in the pharmaceutical industry", "improving new functionalities and automation tools", "preparing technical documentation"],
+        experienceDatesPublicis: "11/2023 - present",
+
+        experiencePositionStudioWww: "FRONT-END DEVELOPER",
+        experienceDutiesStudioWww: ["creating and developing web applications for a client in the banking industry", "user-friendly websites implementation"],
+        experienceDatesStudioWww: "06/2022 - 10/2023",
+
+        experienceCompanySea: "Sea Transport",
+        experiencePositionSea: "IMPORT CUSTOMER SERVICE SPECIALIST / MANAGER",
+        experienceDutiesSea: ["handling imports in sea transport", "operational support for the international carriers", "customer service for domestic and foreign clients", "organization and coordination of the team's work"],
+        experienceDatesSea: "06/2004 - 10/2022",
 
         projectsFeaturedProject: "FEATURED PROJECT",
 
@@ -87,8 +102,11 @@ export const DICT = {
     pl: {
         navbarAbout: "O mnie",
         navbarSkills: "Umiejętności",
+        navbarExperience: "Doświadczenie",
         navbarProjects: "Projekty",
         navbarContact: "Kontakt",
+        navbarFullName: "Aleksandra Wilczyńska",
+
 
         introHello: "Hej, nazywam się",
         introHelloMobile: "Hej, mam na imię",
@@ -124,10 +142,23 @@ export const DICT = {
         skills_css: "CSS3",
         skills_js: "JavaScript",
         skills_react: "React",
-        skills_redux: "Redux",
+        skills_redux: "Redux Toolkit",
         skills_git: "GIT Version Control",
         skills_astro: "Astro",
         skills_ts: "TypeScript",
+
+        experiencePositionPublicis: "FRONT-END DEVELOPER",
+        experienceDutiesPublicis: ["tworzenie aplikacji webowych dla renomowanego klienta z branży farmaceutycznej", "rozwijanie nowych funkcjonalności i automatyzacja", "opracowywanie dokumentacji technicznej"],
+        experienceDatesPublicis: "11/2023 - obecnie",
+
+        experiencePositionStudioWww: "FRONT-END DEVELOPER",
+        experienceDutiesStudioWww: ["tworzenie i rozwijanie aplikacji webowych dla klienta z branży bankowosci elektronicznej", "implementacja stron internetowych"],
+        experienceDatesStudioWww: "06/2022 - 10/2023",
+
+        experienceCompanySea: "Transport Morski",
+        experiencePositionSea: "SPECJALISTA DS. IMPORTU / KIEROWNIK DZIAŁU",
+        experienceDutiesSea: ["realizacja importu w transporcie morskim", "wsparcie operacyjne armatorów zagranicznych", "współpraca z klientami krajowymi i zagranicznymi", "organizacja oraz koordynacja pracy zespołu"],
+        experienceDatesSea: "06/2004 - 10/2022",
 
         projectsFeaturedProject: "WYKONANY PROJEKT",
 

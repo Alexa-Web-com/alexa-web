@@ -17,8 +17,11 @@ body {
 
   --blue: cornflowerblue;
   --aqua: turquoise;
+  --light-blue: rgba(0, 216, 255, 1);
   --aqua-transparent: rgba(64, 224, 208, 0.127);
   --pink: hotpink;
+  --gold: rgb(236, 204, 158);
+
   --border-radius: 5px;
 
   --fonts2: Inconsolata;

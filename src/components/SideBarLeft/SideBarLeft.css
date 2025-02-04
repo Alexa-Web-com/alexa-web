@@ -45,7 +45,7 @@
 
 .sideBarLeft__icon_github:hover,
 .sideBarLeft__icon_github:focus {
-    background-image: url(../../assets/app_logo/github-colored-pink.svg);
+    background-image: url(../../assets/app_logo/github-colored.svg);
 }
 
 .sideBarLeft__icon_linkedin {
@@ -54,7 +54,7 @@
 
 .sideBarLeft__icon_linkedin:hover,
 .sideBarLeft__icon_linkedin:focus {
-    background-image: url(../../assets/app_logo/linkedin-colored-pink.svg);
+    background-image: url(../../assets/app_logo/linkedin-colored.svg);
 
 }
 
@@ -64,7 +64,7 @@
 
 .sideBarLeft__icon_location:hover,
 .sideBarLeft__icon_location:focus {
-    background-image: url(../../assets/app_logo/location-colored-pink.svg);
+    background-image: url(../../assets/app_logo/location-colored.svg);
 }
 
 .sideBarLeft__icon_phone {
@@ -73,7 +73,7 @@
 
 .sideBarLeft__icon_phone:hover,
 .sideBarLeft__icon_phone:focus {
-    background-image: url(../../assets/app_logo/phone-colored-pink.svg);
+    background-image: url(../../assets/app_logo/phone-colored.svg);
 }
 
 .sideBarLeft__icon_whatsapp {
@@ -82,7 +82,7 @@
 
 .sideBarLeft__icon_whatsapp:hover,
 .sideBarLeft__icon_whatsapp:focus {
-    background-image: url(../../assets/app_logo/whatsapp-colored-pink.svg);
+    background-image: url(../../assets/app_logo/whatsapp-colored.svg);
 }
 
 .sideBarLeft__icon_telegram {
@@ -91,7 +91,7 @@
 
 .sideBarLeft__icon_telegram:hover,
 .sideBarLeft__icon_telegram:focus {
-    background-image: url(../../assets/app_logo/telegram-colored-pink.svg);
+    background-image: url(../../assets/app_logo/telegram-colored.svg);
 }
 
 

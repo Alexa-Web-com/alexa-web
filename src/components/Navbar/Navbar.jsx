@@ -1,13 +1,16 @@
 import './Navbar.css'
 import logo from '../../assets/logo.png'
-import { languages } from '../../utils/dict.js'
-import { useState, useEffect } from 'react'
+import { DICT, languages } from '../../utils/dict.js'
+import { useState, useEffect, useContext } from 'react'
+import { ContextLanguage } from '../../context/ContextLanguage.js'
 import Language from '../Language/Language'
 import { scroll } from '../../utils/scroll'
 import NavEl from './NavEl/NavEl'
 
 
 const Navbar = () => {
+    const [lang,] = useContext(ContextLanguage)
+
     const [isHamburgerActive, setIsHamburgerActive] = useState(false)
 
     useEffect(() => {
@@ -41,7 +44,8 @@ const Navbar = () => {
                 }
                 }>
                 <img src={logo} alt='logo' width='25rem' className='navbar__logo' />
-                <h1 className='navbar__title'>Alexa-Web</h1>
+                {/* <h1 className='navbar__title'>Alexa-Web</h1> */}
+                <h1 className='navbar__title'>{DICT[lang].navbarFullName}</h1>
             </div>
 
 
