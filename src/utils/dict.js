@@ -152,7 +152,7 @@ export const DICT = {
         experienceDatesPublicis: "11/2023 - obecnie",
 
         experiencePositionStudioWww: "FRONT-END DEVELOPER",
-        experienceDutiesStudioWww: ["tworzenie i rozwijanie aplikacji webowych dla klienta z branży bankowosci elektronicznej", "implementacja stron internetowych"],
+        experienceDutiesStudioWww: ["tworzenie i rozwijanie aplikacji webowych dla klienta z branży bankowości elektronicznej", "implementacja stron internetowych"],
         experienceDatesStudioWww: "06/2022 - 10/2023",
 
         experienceCompanySea: "Transport Morski",
