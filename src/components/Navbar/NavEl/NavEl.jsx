@@ -11,37 +11,18 @@ const NavEl = (props) => {
         <nav className={props.isHamburgerActive ? 'navbar__nav_elements_cntr_ham_active' : 'navbar__nav_elements_cntr'}
             onClick={() => props.setIsHamburgerActive(false)}>
             <div className={props.isHamburgerActive ? 'navbar__el_ham_active' : 'navbar__el'}
-                // style={{
-                //     color: 'var(--blue)',
-
-                // }}
                 onClick={() => scroll('about')}
             >{DICT[lang].navbarAbout}</div>
             <div className={props.isHamburgerActive ? 'navbar__el_ham_active' : 'navbar__el'}
-                // style={{
-                //     // color: 'white',
-                //     color: 'var(--aqua)',
-                // }}
                 onClick={() => scroll('skills')}
             >{DICT[lang].navbarSkills}</div>
             <div className={props.isHamburgerActive ? 'navbar__el_ham_active' : 'navbar__el'}
-                // style={{
-                //     // color: 'var(--gold)',
-                //     color: 'var(--blue)',
-                // }}
                 onClick={() => scroll('experience')}
             >{DICT[lang].navbarExperience}</div>
             <div className={props.isHamburgerActive ? 'navbar__el_ham_active' : 'navbar__el'}
-                // style={{
-                //     color: 'var(--aqua)',
-                // }}
                 onClick={() => scroll('projects')}
             >{DICT[lang].navbarProjects}</div>
             <div className={props.isHamburgerActive ? 'navbar__el_ham_active' : 'navbar__el'}
-                // style={{
-                //     // color: 'var(--pink)',
-                //     color: 'var(--blue)',
-                // }}
                 onClick={() => scroll('contact')}
             >{DICT[lang].navbarContact}</div>
             <div className={props.isHamburgerActive ? 'navbar__empty_ham_active' : 'navbar__empty'}></div>
